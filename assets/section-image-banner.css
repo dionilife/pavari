@@ -96,51 +96,51 @@
   .banner--large:not(.banner--adapt) {
     min-height: 72rem;
   }
+}
 
-  .banner__content.banner__content--top-left {
+.banner__content.banner__content--top-left {
     align-items: flex-start;
     justify-content: flex-start;
-  }
+}
 
-  .banner__content.banner__content--top-center {
+.banner__content.banner__content--top-center {
     align-items: flex-start;
     justify-content: center;
-  }
+}
 
-  .banner__content.banner__content--top-right {
+.banner__content.banner__content--top-right {
     align-items: flex-start;
     justify-content: flex-end;
-  }
+}
 
-  .banner__content.banner__content--middle-left {
+.banner__content.banner__content--middle-left {
     align-items: center;
     justify-content: flex-start;
-  }
+}
 
-  .banner__content.banner__content--middle-center {
+.banner__content.banner__content--middle-center {
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .banner__content.banner__content--middle-right {
+.banner__content.banner__content--middle-right {
     align-items: center;
     justify-content: flex-end;
-  }
+}
 
-  .banner__content.banner__content--bottom-left {
+.banner__content.banner__content--bottom-left {
     align-items: flex-end;
     justify-content: flex-start;
-  }
+}
 
-  .banner__content.banner__content--bottom-center {
+.banner__content.banner__content--bottom-center {
     align-items: flex-end;
     justify-content: center;
-  }
+}
 
-  .banner__content.banner__content--bottom-right {
+.banner__content.banner__content--bottom-right {
     align-items: flex-end;
     justify-content: flex-end;
-  }
 }
 
 @media screen and (max-width: 749px) {
@@ -435,6 +435,7 @@
 
 .banner__heading {
   margin-bottom: 0;
+  text-shadow: -2px -2px 2px rgba(255, 255, 255, .1), 2px 2px 1px rgba(0, 0, 0, .5);
 }
 
 .banner__box .banner__heading + * {
@@ -447,6 +448,14 @@
   gap: 1rem;
   max-width: 45rem;
   word-break: break-word;
+
+  .button--secondary {
+    background-color: #cc561c;
+    text-transform: uppercase;
+  }
+  .button--secondary::after {
+    box-shadow: none !important;
+  }
 }
 
 @media screen and (max-width: 749px) {

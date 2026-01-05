@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "<strong>A TASTE THAT SPEAKS BOLDLY</strong>",
+            "heading_size": "hxl"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Discover Pavari 17",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -36,8 +36,10 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/Hero_Section.webp",
+        "image_overlay_opacity": 0,
         "image_height": "large",
+        "image_position": "bottom-center",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
@@ -433,6 +435,7 @@
         "image": "shopify://shop_images/pavari-17_our-story.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
+        "image_position": "middle-center",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
@@ -524,36 +527,11 @@
     },
     "stay_updated_CkJHdt": {
       "type": "stay-updated",
-      "blocks": {
-        "heading_BfdMVa": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>STAY UPDATED</strong>",
-            "heading_size": "h0"
-          }
-        },
-        "paragraph_6M9wtU": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
-          }
-        },
-        "email_form_9tBG8B": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_BfdMVa",
-        "paragraph_6M9wtU",
-        "email_form_9tBG8B"
-      ],
       "name": "Stay Updated",
       "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "title": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "description": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "placeholder": "Enter your email"
       }
     }
   },
