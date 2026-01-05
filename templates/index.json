@@ -1,0 +1,573 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pavari-17",
+        "products_to_show": 8,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_RM3YNn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LpNyiT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WHY-PAVARI-17__VIBRANT.webp",
+            "title": "<strong>VIBRANT</strong>",
+            "text": "<p>Our words sparkle with the same zest as our citrus fruits. Always bright, uplifting, and full of life, we bring an energy that excites the senses and makes people lean in.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jdnA4P": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WHY-PAVARI-17__REFRESHING.webp",
+            "title": "<strong>REFRESHING</strong>",
+            "text": "<p>We cut through the noise with clarity and lightness. Crisp, clear language that awakens and revitalises, leaving people with a sense of something truly new.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jYTNTV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WHY-PAVARI-17__SOPHISTICATED.webp",
+            "title": "<strong>SOPHISTICATED</strong>",
+            "text": "<p>Like our aperitif, our voice is elegant yet approachable. We balance refinement with warmth — never stuffy, always confident, making the complex feel effortless and stylish.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EhgUUJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/WHY-PAVARI-17__OPEN-TO-ALL.webp",
+            "title": "<strong>OPEN TO ALL</strong>",
+            "text": "<p>Inspired by the Mediterranean table, our language is an open invitation. Welcoming and unpretentious, we speak in a way that makes everyone feel part of the moment.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LpNyiT",
+        "column_jdnA4P",
+        "column_jYTNTV",
+        "column_EhgUUJ"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>WHY PAVARI 17?</strong>",
+        "heading_size": "h0",
+        "subtitle": "ANYtime aperitif | flaunt it | the hot med sun | made to be noticed",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_hBmEFH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BFCpbV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4RGiWk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_4.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NAiB4b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_2.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iWz38E": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_3.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FdRBxY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_7.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BFCpbV",
+        "column_4RGiWk",
+        "column_NAiB4b",
+        "column_iWz38E",
+        "column_FdRBxY"
+      ],
+      "custom_css": [],
+      "name": "Awards&Recognition",
+      "settings": {
+        "title": "<strong>Awards & Recognition</strong>",
+        "heading_size": "h0",
+        "subtitle": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 120,
+        "padding_bottom": 120
+      }
+    },
+    "multicolumn_cxjnTb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GqiEBa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_cinchona-bark.webp",
+            "title": "<strong>CINCHONA BARK</strong>",
+            "text": "<p>Brings an anchor to sweetness ans citrus</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wrz7Jy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_cardamon.webp",
+            "title": "<strong>CARDAMON</strong>",
+            "text": "<p>Brings a slightly sweet herbal note</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yB9pFc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_gentian-root.webp",
+            "title": "<strong>GENTIAN ROOT</strong>",
+            "text": "<p>Brings earthy complexity</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_j89NFj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_black-pepper.webp",
+            "title": "<strong>BLACK PEPPER</strong>",
+            "text": "<p>Brings some warm spice</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8tTE8B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_bittersweet-orange-peel.webp",
+            "title": "<strong>BITTERSWEET ORANGE PEEL</strong>",
+            "text": "<p>Brings zesty aromatics<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GqiEBa",
+        "column_Wrz7Jy",
+        "column_yB9pFc",
+        "column_j89NFj",
+        "column_8tTE8B"
+      ],
+      "custom_css": [],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>OUR INGREDIENTS</strong>",
+        "heading_size": "h0",
+        "subtitle": "A SYMPHONY OF REFINED MEDITERRANEAN FLAVOURS",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "multicolumn_t3N9Ec": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4EQ6gW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pavari-coctail.jpg",
+            "title": "<strong>Pavari ON ICE</strong>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HxcbNy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pavari-coctail.jpg",
+            "title": "<strong>PAVARI MEDITERRANEAN SPRITZ</strong>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_am7CA6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pavari-coctail.jpg",
+            "title": "<strong>PAVARI TONIC</strong>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4EQ6gW",
+        "column_HxcbNy",
+        "column_am7CA6"
+      ],
+      "custom_css": [],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>HOW TO SERVE</strong>",
+        "heading_size": "h0",
+        "subtitle": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "see more our cocktails",
+        "button_link": "shopify://pages/how-to-serve",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "multicolumn_cDNpGQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qme4H9": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Pavari is crafted from an infusion of 17 premium all-natural Mediterranean botanical ingredients, sourced from the sun-drenched hillsides of Italy and Spain, expertly blended with an alcohol-free Mediterranean white wine.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RAkexm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pavari-17_peacock.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3J39fp": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Offering the delicate taste of sweet citrus fruits, with bitter undertones and natural complexity, Pavari is bright, well-rounded and refreshing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qme4H9",
+        "column_RAkexm",
+        "column_3J39fp"
+      ],
+      "name": "Our Story",
+      "settings": {
+        "title": "<strong>OUR STORY</strong>",
+        "heading_size": "h0",
+        "subtitle": "For all the magic of a Spritz moment, without the alcohol.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Discover pavari 17",
+        "button_link": "shopify://pages/our-story",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_eEhpij": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner__media {background: none;}",
+        ".banner__media img {padding: 80px;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/pavari-17_our-story.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_Eaqgwq": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<svg width=\"100%\" height=\"45\" viewBox=\"0 0 1400 45\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"1400\" height=\"45\" transform=\"translate(0.470703)\" fill=\"\"/>\n<path d=\"M0.470703 13.1934C15.3376 21.1179 30.1841 29.0548 45.0152 37C59.2439 28.3551 73.4931 19.7185 87.7524 11.0943C102.589 19.0602 117.404 27.0385 132.2 35.0251C146.464 26.4174 160.749 17.8222 175.049 9.23527C189.845 17.2467 204.63 25.2623 219.395 33.2903C233.695 24.7241 248.011 16.1661 262.346 7.62056C277.111 15.6693 291.861 23.7263 306.595 31.7957C320.926 23.2708 335.277 14.7543 349.643 6.24598C364.367 14.3361 379.071 22.4345 393.759 30.5453C408.126 22.0577 422.508 13.5826 436.905 5.11569C451.603 13.2431 466.281 21.3829 480.944 29.5351C495.346 21.0889 509.759 12.651 524.192 4.22552C538.859 12.3943 553.502 20.5755 568.134 28.765C582.572 20.3602 597.025 11.9637 611.499 3.5755C626.126 11.7857 640.737 20.0083 655.329 28.235C669.802 19.8717 684.291 11.5124 698.801 3.16561C713.397 11.4172 727.978 19.6771 742.539 27.9493C757.048 19.6232 771.578 11.3054 786.123 3C800.684 11.293 815.229 19.5943 829.754 27.9038C844.304 19.6191 858.875 11.3427 873.461 3.07453C887.986 11.4048 902.496 19.7474 916.99 28.0984C931.576 19.8551 946.177 11.6159 960.794 3.39333C975.288 11.765 989.767 20.1449 1004.23 28.5373C1018.85 20.3312 1033.48 12.1335 1048.14 3.94813C1062.6 12.3612 1077.04 20.7825 1091.47 29.2163C1106.12 21.0516 1120.79 12.8953 1135.47 4.75134C1149.9 13.2017 1164.3 21.6644 1178.69 30.1354C1193.38 22.008 1208.08 13.8931 1222.8 5.79055C1237.19 14.2823 1251.57 22.7823 1265.92 31.2947C1280.65 23.2129 1295.4 15.1393 1310.16 7.07404C1324.52 15.6072 1338.85 24.1486 1353.17 32.6982C1367.94 24.6537 1382.73 16.6215 1397.53 8.6018C1411.87 17.1722 1426.18 25.755 1440.47 34.3461\" stroke=\"#BBE3FA\" stroke-width=\"2\" stroke-miterlimit=\"10\"/>\n<path d=\"M0.470703 18.1934C15.3376 26.1179 30.1841 34.0548 45.0152 42C59.2439 33.3551 73.4931 24.7185 87.7524 16.0943C102.589 24.0602 117.404 32.0385 132.2 40.0251C146.464 31.4174 160.749 22.8222 175.049 14.2353C189.845 22.2467 204.63 30.2623 219.395 38.2903C233.695 29.7241 248.011 21.1661 262.346 12.6206C277.111 20.6693 291.861 28.7263 306.595 36.7957C320.926 28.2708 335.277 19.7543 349.643 11.246C364.367 19.3361 379.071 27.4345 393.759 35.5453C408.126 27.0577 422.508 18.5826 436.905 10.1157C451.603 18.2431 466.281 26.3829 480.944 34.5351C495.346 26.0889 509.759 17.651 524.192 9.22552C538.859 17.3943 553.502 25.5755 568.134 33.765C582.572 25.3602 597.025 16.9637 611.499 8.5755C626.126 16.7857 640.737 25.0083 655.329 33.235C669.802 24.8717 684.291 16.5124 698.801 8.16561C713.397 16.4172 727.978 24.6771 742.539 32.9493C757.048 24.6232 771.578 16.3054 786.123 8C800.684 16.293 815.229 24.5943 829.754 32.9038C844.304 24.6191 858.875 16.3427 873.461 8.07453C887.986 16.4048 902.496 24.7474 916.99 33.0984C931.576 24.8551 946.177 16.6159 960.794 8.39333C975.288 16.765 989.767 25.1449 1004.23 33.5373C1018.85 25.3312 1033.48 17.1335 1048.14 8.94813C1062.6 17.3612 1077.04 25.7825 1091.47 34.2163C1106.12 26.0516 1120.79 17.8953 1135.47 9.75134C1149.9 18.2017 1164.3 26.6644 1178.69 35.1354C1193.38 27.008 1208.08 18.8931 1222.8 10.7905C1237.19 19.2823 1251.57 27.7823 1265.92 36.2947C1280.65 28.2129 1295.4 20.1393 1310.16 12.074C1324.52 20.6072 1338.85 29.1486 1353.17 37.6982C1367.94 29.6537 1382.73 21.6215 1397.53 13.6018C1411.87 22.1722 1426.18 30.755 1440.47 39.3461\" stroke=\"#BBE3FA\" stroke-width=\"2\" stroke-miterlimit=\"10\"/>\n</svg>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_R7xK3Y": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Q4rMWY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/our-community-video-example.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CYqgkH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/our-community-video-example.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TJUwt8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/our-community-video-example.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FUedK3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/our-community-video-example.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Q4rMWY",
+        "column_CYqgkH",
+        "column_TJUwt8",
+        "column_FUedK3"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>OUR COMMUNITY</strong>",
+        "heading_size": "h0",
+        "subtitle": "SHARE YOUR MOMENT. TAG @PAVARI17",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "stay_updated_CkJHdt": {
+      "type": "stay-updated",
+      "blocks": {
+        "heading_BfdMVa": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>STAY UPDATED</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "paragraph_6M9wtU": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_9tBG8B": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_BfdMVa",
+        "paragraph_6M9wtU",
+        "email_form_9tBG8B"
+      ],
+      "name": "Stay Updated",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "multicolumn_RM3YNn",
+    "multicolumn_hBmEFH",
+    "multicolumn_cxjnTb",
+    "multicolumn_t3N9Ec",
+    "multicolumn_cDNpGQ",
+    "image_banner_eEhpij",
+    "custom_liquid_Eaqgwq",
+    "multicolumn_R7xK3Y",
+    "stay_updated_CkJHdt"
+  ]
+}
