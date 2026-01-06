@@ -78,6 +78,100 @@
         "padding_bottom": 36
       }
     },
+    "pavari_divider_WXDq3z": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
+      }
+    },
+    "multicolumn_YpfNCd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rqWCCn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-gluten-free.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_irw6D8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-vegan.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NgrQXC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-low-calorie.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pdLHfc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages_-sugar-free.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xkLHwF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-alcohol-free.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rqWCCn",
+        "column_irw6D8",
+        "column_NgrQXC",
+        "column_pdLHfc",
+        "column_xkLHwF"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "subtitle": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "pavari_divider_FaXNqa": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "waves"
+      }
+    },
     "multicolumn_RM3YNn": {
       "type": "multicolumn",
       "blocks": {
@@ -145,6 +239,13 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "pavari_divider_3MimME": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "waves"
       }
     },
     "multicolumn_hBmEFH": {
@@ -228,6 +329,13 @@
         "padding_bottom": 120
       }
     },
+    "pavari_divider_cHAKp7": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
+      }
+    },
     "multicolumn_cxjnTb": {
       "type": "multicolumn",
       "blocks": {
@@ -309,13 +417,20 @@
         "padding_bottom": 72
       }
     },
+    "pavari_divider_PFUciQ": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "waves"
+      }
+    },
     "multicolumn_t3N9Ec": {
       "type": "multicolumn",
       "blocks": {
         "column_4EQ6gW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/pavari-coctail.jpg",
+            "image": "shopify://shop_images/serve_pavari-on-ice.webp",
             "title": "<strong>Pavari ON ICE</strong>",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -325,7 +440,7 @@
         "column_HxcbNy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/pavari-coctail.jpg",
+            "image": "shopify://shop_images/serve_pavari-mediteranean-spritz.webp",
             "title": "<strong>PAVARI MEDITERRANEAN SPRITZ</strong>",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -335,7 +450,7 @@
         "column_am7CA6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/pavari-coctail.jpg",
+            "image": "shopify://shop_images/serve_pavari-tonic.webp",
             "title": "<strong>PAVARI TONIC</strong>",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -366,6 +481,13 @@
         "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64
+      }
+    },
+    "pavari_divider_HTUhP7": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
       }
     },
     "multicolumn_cDNpGQ": {
@@ -446,14 +568,11 @@
         "show_text_below": true
       }
     },
-    "custom_liquid_Eaqgwq": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "pavari_divider_ATXGnQ": {
+      "type": "pavari-divider",
+      "name": "Divider",
       "settings": {
-        "custom_liquid": "<svg width=\"100%\" height=\"45\" viewBox=\"0 0 1400 45\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"1400\" height=\"45\" transform=\"translate(0.470703)\" fill=\"\"/>\n<path d=\"M0.470703 13.1934C15.3376 21.1179 30.1841 29.0548 45.0152 37C59.2439 28.3551 73.4931 19.7185 87.7524 11.0943C102.589 19.0602 117.404 27.0385 132.2 35.0251C146.464 26.4174 160.749 17.8222 175.049 9.23527C189.845 17.2467 204.63 25.2623 219.395 33.2903C233.695 24.7241 248.011 16.1661 262.346 7.62056C277.111 15.6693 291.861 23.7263 306.595 31.7957C320.926 23.2708 335.277 14.7543 349.643 6.24598C364.367 14.3361 379.071 22.4345 393.759 30.5453C408.126 22.0577 422.508 13.5826 436.905 5.11569C451.603 13.2431 466.281 21.3829 480.944 29.5351C495.346 21.0889 509.759 12.651 524.192 4.22552C538.859 12.3943 553.502 20.5755 568.134 28.765C582.572 20.3602 597.025 11.9637 611.499 3.5755C626.126 11.7857 640.737 20.0083 655.329 28.235C669.802 19.8717 684.291 11.5124 698.801 3.16561C713.397 11.4172 727.978 19.6771 742.539 27.9493C757.048 19.6232 771.578 11.3054 786.123 3C800.684 11.293 815.229 19.5943 829.754 27.9038C844.304 19.6191 858.875 11.3427 873.461 3.07453C887.986 11.4048 902.496 19.7474 916.99 28.0984C931.576 19.8551 946.177 11.6159 960.794 3.39333C975.288 11.765 989.767 20.1449 1004.23 28.5373C1018.85 20.3312 1033.48 12.1335 1048.14 3.94813C1062.6 12.3612 1077.04 20.7825 1091.47 29.2163C1106.12 21.0516 1120.79 12.8953 1135.47 4.75134C1149.9 13.2017 1164.3 21.6644 1178.69 30.1354C1193.38 22.008 1208.08 13.8931 1222.8 5.79055C1237.19 14.2823 1251.57 22.7823 1265.92 31.2947C1280.65 23.2129 1295.4 15.1393 1310.16 7.07404C1324.52 15.6072 1338.85 24.1486 1353.17 32.6982C1367.94 24.6537 1382.73 16.6215 1397.53 8.6018C1411.87 17.1722 1426.18 25.755 1440.47 34.3461\" stroke=\"#BBE3FA\" stroke-width=\"2\" stroke-miterlimit=\"10\"/>\n<path d=\"M0.470703 18.1934C15.3376 26.1179 30.1841 34.0548 45.0152 42C59.2439 33.3551 73.4931 24.7185 87.7524 16.0943C102.589 24.0602 117.404 32.0385 132.2 40.0251C146.464 31.4174 160.749 22.8222 175.049 14.2353C189.845 22.2467 204.63 30.2623 219.395 38.2903C233.695 29.7241 248.011 21.1661 262.346 12.6206C277.111 20.6693 291.861 28.7263 306.595 36.7957C320.926 28.2708 335.277 19.7543 349.643 11.246C364.367 19.3361 379.071 27.4345 393.759 35.5453C408.126 27.0577 422.508 18.5826 436.905 10.1157C451.603 18.2431 466.281 26.3829 480.944 34.5351C495.346 26.0889 509.759 17.651 524.192 9.22552C538.859 17.3943 553.502 25.5755 568.134 33.765C582.572 25.3602 597.025 16.9637 611.499 8.5755C626.126 16.7857 640.737 25.0083 655.329 33.235C669.802 24.8717 684.291 16.5124 698.801 8.16561C713.397 16.4172 727.978 24.6771 742.539 32.9493C757.048 24.6232 771.578 16.3054 786.123 8C800.684 16.293 815.229 24.5943 829.754 32.9038C844.304 24.6191 858.875 16.3427 873.461 8.07453C887.986 16.4048 902.496 24.7474 916.99 33.0984C931.576 24.8551 946.177 16.6159 960.794 8.39333C975.288 16.765 989.767 25.1449 1004.23 33.5373C1018.85 25.3312 1033.48 17.1335 1048.14 8.94813C1062.6 17.3612 1077.04 25.7825 1091.47 34.2163C1106.12 26.0516 1120.79 17.8953 1135.47 9.75134C1149.9 18.2017 1164.3 26.6644 1178.69 35.1354C1193.38 27.008 1208.08 18.8931 1222.8 10.7905C1237.19 19.2823 1251.57 27.7823 1265.92 36.2947C1280.65 28.2129 1295.4 20.1393 1310.16 12.074C1324.52 20.6072 1338.85 29.1486 1353.17 37.6982C1367.94 29.6537 1382.73 21.6215 1397.53 13.6018C1411.87 22.1722 1426.18 30.755 1440.47 39.3461\" stroke=\"#BBE3FA\" stroke-width=\"2\" stroke-miterlimit=\"10\"/>\n</svg>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "type": "waves"
       }
     },
     "multicolumn_R7xK3Y": {
@@ -525,6 +644,13 @@
         "padding_bottom": 36
       }
     },
+    "pavari_divider_QKpwEE": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
+      }
+    },
     "stay_updated_CkJHdt": {
       "type": "stay-updated",
       "name": "Stay Updated",
@@ -533,19 +659,35 @@
         "description": "<p>Be the first to know about new collections and exclusive offers.</p>",
         "placeholder": "Enter your email"
       }
+    },
+    "pavari_divider_jYd9ca": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "waves"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
+    "pavari_divider_WXDq3z",
+    "multicolumn_YpfNCd",
+    "pavari_divider_FaXNqa",
     "multicolumn_RM3YNn",
+    "pavari_divider_3MimME",
     "multicolumn_hBmEFH",
+    "pavari_divider_cHAKp7",
     "multicolumn_cxjnTb",
+    "pavari_divider_PFUciQ",
     "multicolumn_t3N9Ec",
+    "pavari_divider_HTUhP7",
     "multicolumn_cDNpGQ",
     "image_banner_eEhpij",
-    "custom_liquid_Eaqgwq",
+    "pavari_divider_ATXGnQ",
     "multicolumn_R7xK3Y",
-    "stay_updated_CkJHdt"
+    "pavari_divider_QKpwEE",
+    "stay_updated_CkJHdt",
+    "pavari_divider_jYd9ca"
   ]
 }
