@@ -1,3 +1,4 @@
+<script src="{{ 'stay-updated.js' | asset_url }}" defer></script>
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -10,22 +11,6 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
-  .stay-updated {
-    padding: 120px 80px;
-  }
-
-  .stay-updated_wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.25rem;
-  }
-
-  .stay-updated_wrapper > div {
-    flex: 1;
-    max-width: 630px;
-  }
 {%- endstyle -%}
 
 <div class="stay-updated center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
@@ -36,35 +21,45 @@
       <div class="newsletter__subheading rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         Sip a little sunshine. Sign up for Pavari updates, fresh serving inspiration, and moments made to be noticed straight to your inbox.
       </div>
-      <div {{ block.shopify_attributes }}>
-        <div class="field">
-          <input
-            id="NewsletterForm--{{ section.id }}"
+      <div class="email-input" {{ block.shopify_attributes }}>
+        <form id="form-stay-updated" class="field email-input-wrapper">
+          <input id="stay-updated-email"
             type="email"
-            name="contact[email]"
+            name="email"
             class="field__input"
             aria-required="true"
             autocorrect="off"
             autocapitalize="off"
             autocomplete="email"
+            pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
             placeholder="Enter your email"
             required
           >
-          <label class="field__label" for="NewsletterForm--{{ section.id }}">
+          <label class="field__label" for="stay-updated-email">
             Enter your email
           </label>
           <button
             type="submit"
             class="button--primary"
             name="commit"
-            id="Subscribe"
             aria-label="Subscribe"
           >
             Subscribe
           </button>
-        </div>
+        </form>
       </div>
     </div>
+
+    <div class="stay-updated-alert success hidden">
+        <div class="stay-updated-alert_wrapper" style="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9362 7.1636C19.1047 7.33235 19.1994 7.5611 19.1994 7.7996C19.1994 8.0381 19.1047 8.26685 18.9362 8.4356L11.1362 16.2356C10.9674 16.4041 10.7387 16.4988 10.5002 16.4988C10.2617 16.4988 10.0329 16.4041 9.86418 16.2356L5.96418 12.3356C5.87576 12.2532 5.80484 12.1538 5.75565 12.0434C5.70646 11.933 5.68001 11.8139 5.67787 11.693C5.67574 11.5722 5.69797 11.4521 5.74324 11.3401C5.7885 11.228 5.85588 11.1262 5.94134 11.0408C6.0268 10.9553 6.1286 10.8879 6.24067 10.8427C6.35273 10.7974 6.47277 10.7752 6.59361 10.7773C6.71445 10.7794 6.83363 10.8059 6.94403 10.8551C7.05443 10.9043 7.15379 10.9752 7.23618 11.0636L10.5002 14.3276L17.6642 7.1636C17.8329 6.99506 18.0617 6.90039 18.3002 6.90039C18.5387 6.90039 18.7674 6.99506 18.9362 7.1636Z" fill="#F7F7EF"/>
+            </svg>
+            <strong>You’re subscribed</strong>
+            <span>Thanks for joining the Pavari 17 newsletter.</span>
+        </div>
+    </div>
+
 </div>
 
 {% schema %}

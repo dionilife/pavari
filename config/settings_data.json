@@ -407,7 +407,7 @@
     "custom_css": [
       ".multicolumn__title {flex-direction: column; justify-content: center; text-transform: uppercase;}",
       ".multicolumn-card {background: none !important;}",
-      ".button--primary {background-color: #cc561c; text-transform: uppercase;}",
+      ".button--primary {background-color: #cc561c; border: none; color: #f7f7ef; text-transform: uppercase;}",
       ".button--primary::after {box-shadow: none !important;}"
     ]
   }
