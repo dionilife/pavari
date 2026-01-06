@@ -3590,6 +3590,11 @@ details-disclosure > details {
   display: block;
 }
 
+.button--primary:disabled {
+    background-color: #ababab;
+    color: #666;
+}
+
 @keyframes indeterminateAnimation {
   0% {
     transform: translateX(-20%) scaleX(0);
