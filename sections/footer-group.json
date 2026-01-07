@@ -11,8 +11,18 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "pavari_footer_7wHFYb": {
+      "type": "pavari-footer",
+      "name": "Custom Footer",
+      "settings": {
+        "footer_logo": "shopify://shop_images/pavari-17_logo.png",
+        "privacy_page": "data-sharing-opt-out",
+        "terms_page": "terms-of-service"
+      }
+    },
     "footer": {
       "type": "footer",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": false,
@@ -30,6 +40,7 @@
     }
   },
   "order": [
+    "pavari_footer_7wHFYb",
     "footer"
   ]
 }

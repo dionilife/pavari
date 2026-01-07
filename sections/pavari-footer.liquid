@@ -1,0 +1,78 @@
+<div class="custom-footer">
+    <nav aria-label="Footer navigation">
+        <ul class="footer-nav">
+            <li><a href="/shop">SHOP</a></li>
+            <li><a href="/pages/cocktails">COCKTAILS</a></li>
+            <li><a href="/pages/our-story">OUR STORY</a></li>
+            <li><a href="/pages/awards">AWARDS</a></li>
+            <li><a href="/pages/contacts">CONTACTS</a></li>
+        </ul>
+    </nav>
+    {% comment %}<hr />{% endcomment %}
+    <div class="custom-footer_outro-container">
+        {%- if section.settings.footer_logo != blank -%}
+            {{
+            section.settings.footer_logo
+            | image_url: width: 140
+            | image_tag:
+            sizes: sizes,
+            widths: '50, 75, 100, 140'
+            }}
+        {% endif %}
+        <p class="outro-text" style="">MADE TO BE NOTICED</p>
+    </div>
+    {% comment %}<hr />{% endcomment %}
+    <div class="custom-footer_copyright">
+        <ul class="social-nav">
+            <li><a href="https://www.facebook.com/people/Pavari-17/61577673938559/" target="_blank"><span class="svg-wrapper">{{- 'icon-facebook.svg' | inline_asset_content -}}</span></a></li>
+            {% comment %}<li><span class="svg-wrapper">{{- 'icon-x.svg' | inline_asset_content -}}</span></li>{% endcomment %}
+            <li><a href="https://www.tiktok.com/@pavari17" target="_blank"><span class="svg-wrapper">{{- 'icon-tiktok.svg' | inline_asset_content -}}</span></a></li>
+            {% comment %}<li><span class="svg-wrapper">{{- 'icon-youtube.svg' | inline_asset_content -}}</span></li>{% endcomment %}
+            <li><a href="https://www.instagram.com/drink_pavari17/" target="_blank"><span class="svg-wrapper">{{- 'icon-instagram.svg' | inline_asset_content -}}</span></a></li>
+        </ul>
+        <ul class="terms-nav">
+            <li>© 2025 PAVARI17. All rights reserved. </li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="{{ section.settings.privacy_page }}">Terms of Service</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="{{ section.settings.terms_page }}">Privacy Policy</a></li>
+        </ul>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Footer",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": [
+      "header"
+    ]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "footer_logo",
+      "label": "t:sections.video.settings.cover_image.label"
+    },
+    {
+      "type": "page",
+      "id": "privacy_page",
+      "label": "Privacy Policy Page"
+    },
+    {
+      "type": "page",
+      "id": "terms_page",
+      "label": "Terms of Service Page"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Custom Footer",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
