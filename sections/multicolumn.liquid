@@ -30,8 +30,17 @@
       data-cascade
     {% endif %}
   >
-    {%- unless section.settings.title == blank -%}
+      {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+        {% if section.settings.heading_logo %}
+            {{
+            section.settings.heading_logo
+            | image_url: width: 200
+            | image_tag:
+            widths: '50, 75, 100, 150, 200, 300',
+            sizes: sizes
+            }}
+        {% endif %}
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
@@ -211,6 +220,11 @@
       "label": "t:sections.multicolumn.settings.title.label"
     },
     {
+      "type": "image_picker",
+      "id": "heading_logo",
+      "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+    },
+    {
       "type": "select",
       "id": "heading_size",
       "options": [
@@ -246,7 +260,7 @@
     {
       "type": "header",
       "content": "t:sections.multicolumn.settings.header_image.content"
-    },    
+    },
     {
       "type": "select",
       "id": "image_width",
@@ -294,23 +308,23 @@
     {
       "type": "header",
       "content": "t:sections.multicolumn.settings.header_button.content"
-    },    
+    },
     {
       "type": "text",
       "id": "button_label",
       "default": "t:sections.multicolumn.settings.button_label.default",
-      "label": "t:sections.multicolumn.settings.button_label.label", 
+      "label": "t:sections.multicolumn.settings.button_label.label",
       "info": "t:sections.multicolumn.settings.button_label.info"
     },
     {
       "type": "url",
       "id": "button_link",
       "label": "t:sections.multicolumn.settings.button_link.label"
-    },    
+    },
     {
       "type": "header",
       "content": "t:sections.multicolumn.settings.header_layout.content"
-    },     
+    },
     {
       "type": "range",
       "id": "columns_desktop",
@@ -357,7 +371,7 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
-    },    
+    },
     {
       "type": "header",
       "content": "t:sections.multicolumn.settings.header_mobile.content"

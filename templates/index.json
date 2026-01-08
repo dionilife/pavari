@@ -50,6 +50,13 @@
         "show_text_below": false
       }
     },
+    "pavari_divider_ByhYc9": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "mtbn"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -88,36 +95,6 @@
     "multicolumn_YpfNCd": {
       "type": "multicolumn",
       "blocks": {
-        "column_rqWCCn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/advantages-gluten-free.svg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_irw6D8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/advantages-vegan.svg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NgrQXC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/advantages-low-calorie.svg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_pdLHfc": {
           "type": "column",
           "settings": {
@@ -137,14 +114,44 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_irw6D8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-vegan.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rqWCCn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-gluten-free.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NgrQXC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-low-calorie.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "column_rqWCCn",
-        "column_irw6D8",
-        "column_NgrQXC",
         "column_pdLHfc",
-        "column_xkLHwF"
+        "column_xkLHwF",
+        "column_irw6D8",
+        "column_rqWCCn",
+        "column_NgrQXC"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -401,6 +408,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "<strong>OUR INGREDIENTS</strong>",
+        "heading_logo": "shopify://shop_images/pavari-17_logo-short.png",
         "heading_size": "h0",
         "subtitle": "A SYMPHONY OF REFINED MEDITERRANEAN FLAVOURS",
         "image_width": "full",
@@ -670,6 +678,7 @@
   },
   "order": [
     "image_banner",
+    "pavari_divider_ByhYc9",
     "featured_collection",
     "pavari_divider_WXDq3z",
     "multicolumn_YpfNCd",

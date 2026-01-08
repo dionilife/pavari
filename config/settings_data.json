@@ -405,6 +405,7 @@
   },
   "platform_customizations": {
     "custom_css": [
+      "h4.subtitle {color: #c7a474; margin-top: 1rem !important;}",
       ".multicolumn__title {flex-direction: column; justify-content: center; text-transform: uppercase;}",
       ".multicolumn-card {background: none !important;}",
       ".button--primary {background-color: #cc561c; border: none; color: #f7f7ef; text-transform: uppercase;}",
