@@ -93,6 +93,26 @@
     flex: 1;
     max-width: 630px;
 }
+/* CUSTOM FOOTER */
+.custom-carousel {
+    max-width: 1440px;
+    margin: 120px auto;
+
+    .title {
+      margin-top: 0;
+      margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .custom-carousel {
+      margin: 60px 18px;
+        .splide__slide img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
 
 /* CUSTOM FOOTER */
 .custom-footer {

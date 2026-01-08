@@ -1,0 +1,47 @@
+<link href="{{ 'splide.min.css' | asset_url }}" rel="stylesheet">
+<div class="custom-carousel">
+    <h2 class="title inline-richtext h0 center"><strong>AWARDS &amp; RECOGNITION</strong></h2>
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <ul class="splide__list">
+                {%- for block in section.blocks -%}
+                  {%- if block.settings.image != blank -%}
+                    <li class="splide__slide">{{ block.settings.image | image_url: width: 180 | image_tag: sizes: sizes, widths: '50, 75, 128, 180' }}</li>
+                  {%- endif -%}
+                {%- endfor -%}
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+<script src="{{ 'carousel.js' | asset_url }}" defer></script>
+{% schema %}
+{
+  "name": "Carousel Splide",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Carousel Splide",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}

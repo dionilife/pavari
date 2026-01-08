@@ -50,6 +50,13 @@
         "show_text_below": false
       }
     },
+    "pavari_divider_ByhYc9": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "mtbn"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -88,36 +95,6 @@
     "multicolumn_YpfNCd": {
       "type": "multicolumn",
       "blocks": {
-        "column_rqWCCn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/advantages-gluten-free.svg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_irw6D8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/advantages-vegan.svg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NgrQXC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/advantages-low-calorie.svg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_pdLHfc": {
           "type": "column",
           "settings": {
@@ -137,14 +114,47 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_irw6D8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-vegan.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rqWCCn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-gluten-free.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NgrQXC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/advantages-low-calorie.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "column_rqWCCn",
-        "column_irw6D8",
-        "column_NgrQXC",
         "column_pdLHfc",
-        "column_xkLHwF"
+        "column_xkLHwF",
+        "column_irw6D8",
+        "column_rqWCCn",
+        "column_NgrQXC"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 989px) {.multicolumn-list {align-items: center; } .grid__item {max-width: 45%; }}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -248,86 +258,84 @@
         "type": "waves"
       }
     },
-    "multicolumn_hBmEFH": {
-      "type": "multicolumn",
+    "pavari_carousel_7bpcWB": {
+      "type": "pavari-carousel",
       "blocks": {
-        "column_BFCpbV": {
-          "type": "column",
+        "image_J6ahX4": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Awwards_1.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Awwards_7.webp"
           }
         },
-        "column_4RGiWk": {
-          "type": "column",
+        "image_mhtT8R": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Awwards_4.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Awwards_6.webp"
           }
         },
-        "column_NAiB4b": {
-          "type": "column",
+        "image_Kw3y77": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Awwards_2.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Awwards_2.webp"
           }
         },
-        "column_iWz38E": {
-          "type": "column",
+        "image_VBFnLA": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Awwards_3.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Awwards_3.webp"
           }
         },
-        "column_FdRBxY": {
-          "type": "column",
+        "image_7DWdCq": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Awwards_7.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/Awwards_1.webp"
+          }
+        },
+        "image_MEHP4U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_4.webp"
+          }
+        },
+        "image_i9Tp4r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_5.webp"
+          }
+        },
+        "image_qTn4Qb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_9.webp"
+          }
+        },
+        "image_wdGNxi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_8.webp"
+          }
+        },
+        "image_fm9jeY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_10.webp"
           }
         }
       },
       "block_order": [
-        "column_BFCpbV",
-        "column_4RGiWk",
-        "column_NAiB4b",
-        "column_iWz38E",
-        "column_FdRBxY"
+        "image_J6ahX4",
+        "image_mhtT8R",
+        "image_Kw3y77",
+        "image_VBFnLA",
+        "image_7DWdCq",
+        "image_MEHP4U",
+        "image_i9Tp4r",
+        "image_qTn4Qb",
+        "image_wdGNxi",
+        "image_fm9jeY"
       ],
-      "custom_css": [],
       "name": "Awards&Recognition",
-      "settings": {
-        "title": "<strong>Awards & Recognition</strong>",
-        "heading_size": "h0",
-        "subtitle": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 5,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 120,
-        "padding_bottom": 120
-      }
+      "settings": {}
     },
     "pavari_divider_cHAKp7": {
       "type": "pavari-divider",
@@ -670,13 +678,14 @@
   },
   "order": [
     "image_banner",
+    "pavari_divider_ByhYc9",
     "featured_collection",
     "pavari_divider_WXDq3z",
     "multicolumn_YpfNCd",
     "pavari_divider_FaXNqa",
     "multicolumn_RM3YNn",
     "pavari_divider_3MimME",
-    "multicolumn_hBmEFH",
+    "pavari_carousel_7bpcWB",
     "pavari_divider_cHAKp7",
     "multicolumn_cxjnTb",
     "pavari_divider_PFUciQ",
