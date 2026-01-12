@@ -418,6 +418,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "<strong>OUR INGREDIENTS</strong>",
+        "heading_logo": "shopify://shop_images/pavari-17_logo-short.png",
         "heading_size": "h0",
         "subtitle": "A SYMPHONY OF REFINED MEDITERRANEAN FLAVOURS",
         "image_width": "full",

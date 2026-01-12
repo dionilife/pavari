@@ -1,11 +1,13 @@
 /* CUSTOM DIVIDER COMPONENT */
 
 .custom-divider {
-    padding: 20px 0;
-
     .custom-divider-container {
         margin: 0 auto;
         max-width: 1440px;
+
+        &.padding {
+            max-width: 1440px;
+        }
     }
 }
 
