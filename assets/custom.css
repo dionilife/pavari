@@ -3,6 +3,7 @@
 .custom-divider {
     .custom-divider-container {
         margin: 0 auto;
+        line-height: 0;
         max-width: 1440px;
 
         &.padding {
