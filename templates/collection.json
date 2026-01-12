@@ -36,10 +36,101 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_cxjnTb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GqiEBa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_cinchona-bark.webp",
+            "title": "<strong>CINCHONA BARK</strong>",
+            "text": "<p>Brings an anchor to sweetness ans citrus</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wrz7Jy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_cardamon.webp",
+            "title": "<strong>CARDAMON</strong>",
+            "text": "<p>Brings a slightly sweet herbal note</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yB9pFc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_gentian-root.webp",
+            "title": "<strong>GENTIAN ROOT</strong>",
+            "text": "<p>Brings earthy complexity</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_j89NFj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_black-pepper.webp",
+            "title": "<strong>BLACK PEPPER</strong>",
+            "text": "<p>Brings some warm spice</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8tTE8B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ingridients_bittersweet-orange-peel.webp",
+            "title": "<strong>BITTERSWEET ORANGE PEEL</strong>",
+            "text": "<p>Brings zesty aromatics<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GqiEBa",
+        "column_Wrz7Jy",
+        "column_yB9pFc",
+        "column_j89NFj",
+        "column_8tTE8B"
+      ],
+      "custom_css": [],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>OUR INGREDIENTS</strong>",
+        "heading_logo": "shopify://shop_images/pavari-17_logo-short.png",
+        "heading_size": "h0",
+        "subtitle": "A SYMPHONY OF REFINED MEDITERRANEAN FLAVOURS",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "pavari_divider_PFUciQ": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "waves"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "multicolumn_cxjnTb",
+    "pavari_divider_PFUciQ"
   ]
 }
