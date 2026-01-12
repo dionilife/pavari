@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -19,9 +20,11 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -32,9 +35,31 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "pavari_featured_products_6tccKU": {
+      "type": "pavari-featured-products",
+      "name": "Featured Products",
+      "settings": {
+        "logo_image": "shopify://shop_images/pavari-17_peacock.webp",
+        "intro_image": "shopify://shop_images/bittersweet-aperitivo-logo.svg",
+        "collection": "pavari-17"
+      }
+    },
+    "pavari_divider_VPiWwd": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
+      }
+    },
+    "pavari_divider_hy8Nkb": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "mtbn"
       }
     },
     "multicolumn_cxjnTb": {
@@ -125,12 +150,100 @@
       "settings": {
         "type": "waves"
       }
+    },
+    "multicolumn_kQ3ag8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fFKW9m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/serve_pavari-on-ice.webp",
+            "title": "<strong>Pavari ON ICE</strong>",
+            "text": "<p>Pour Pavari into an ice-filled glass and top with fresh soda, tonic, or non-alcoholic prosecco. Garnish generously with slices of zesty orange for a bright, refreshing spritz moment.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HpbDbH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/serve_pavari-mediteranean-spritz.webp",
+            "title": "<strong>PAVARI MEDITERRANEAN SPRITZ</strong>",
+            "text": "<p>Enjoy Pavari simply over ice. Clean, bold, and refreshing - a pure expression of flavour, perfect for an easy aperitivo moment without the alcohol.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_L7xRda": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/serve_pavari-tonic.webp",
+            "title": "<strong>PAVARI TONIC</strong>",
+            "text": "<p>Serve Pavari as a vibrant orange spritz and finish with the signature peacock feather stirrer. It’s not just about taste - it’s about theatre, turning every pour into a moment made to be noticed.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fFKW9m",
+        "column_HpbDbH",
+        "column_L7xRda"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "HOW TO SERVE",
+        "heading_size": "h1",
+        "subtitle": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "see more our cocktails",
+        "button_link": "shopify://pages/how-to-serve",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "pavari_divider_xaBxKA": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "waves"
+      }
+    },
+    "stay_updated_Be8f4r": {
+      "type": "stay-updated",
+      "name": "Stay Updated",
+      "settings": {
+        "title": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "description": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "placeholder": "Enter your email"
+      }
+    },
+    "pavari_divider_BGL4yi": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
+      }
     }
   },
   "order": [
     "banner",
+    "pavari_divider_hy8Nkb",
     "product-grid",
+    "pavari_featured_products_6tccKU",
+    "pavari_divider_VPiWwd",
     "multicolumn_cxjnTb",
-    "pavari_divider_PFUciQ"
+    "pavari_divider_PFUciQ",
+    "multicolumn_kQ3ag8",
+    "pavari_divider_xaBxKA",
+    "stay_updated_Be8f4r",
+    "pavari_divider_BGL4yi"
   ]
 }
