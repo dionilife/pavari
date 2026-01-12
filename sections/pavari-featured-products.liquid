@@ -1,0 +1,62 @@
+<script src="{{ 'featured-products.js' | asset_url }}" defer></script>
+
+<div class="featured-products">
+    <img class="featured-products_background" src="{{ 'twig.webp' | asset_url }}"/>
+    {% if section.settings.logo_image != blank %}
+        {{ section.settings.logo_image | image_url: width: 340 | image_tag: class: 'featured-products_logo' }}
+    {% endif %}
+    {% if section.settings.intro_image != blank %}
+        {{ section.settings.intro_image | image_url: width: 600 | image_tag: class: 'featured-products_intro' }}
+    {% endif %}
+
+    <div class="featured-products_products-list">
+        {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+            {% render 'pavari-card-product', product: product %}
+        {%- endfor -%}
+    </div>
+
+    <a class="featured-products_products-see-all button button--primary" href="/collections/frontpage">
+        <span>SEE ALL OUR PRODUCTS</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4.19922 12C4.19922 11.7613 4.29404 11.5324 4.46282 11.3636C4.63161 11.1948 4.86052 11.1 5.09922 11.1H16.7272L13.4632 7.83601C13.3748 7.75361 13.3039 7.65425 13.2547 7.54385C13.2055 7.43345 13.179 7.31428 13.1769 7.19343C13.1748 7.07259 13.197 6.95256 13.2423 6.84049C13.2875 6.72842 13.3549 6.62662 13.4404 6.54116C13.5258 6.4557 13.6276 6.38833 13.7397 6.34306C13.8518 6.29779 13.9718 6.27557 14.0926 6.2777C14.2135 6.27983 14.3327 6.30628 14.4431 6.35547C14.5535 6.40466 14.6528 6.47558 14.7352 6.56401L19.5352 11.364C19.7038 11.5328 19.7984 11.7615 19.7984 12C19.7984 12.2385 19.7038 12.4673 19.5352 12.636L14.7352 17.436C14.5646 17.595 14.339 17.6815 14.1058 17.6774C13.8726 17.6733 13.6502 17.5788 13.4853 17.414C13.3204 17.2491 13.2259 17.0266 13.2218 16.7934C13.2177 16.5603 13.3042 16.3346 13.4632 16.164L16.7272 12.9H5.09922C4.86052 12.9 4.63161 12.8052 4.46282 12.6364C4.29404 12.4676 4.19922 12.2387 4.19922 12Z"
+                  fill="#F7F7EF"/>
+        </svg>
+    </a>
+</div>
+
+{% schema %}
+{
+  "name": "Featured Products",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": [
+      "header",
+      "footer"
+    ]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "t:sections.email-signup-banner.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "intro_image",
+      "label": "t:sections.email-signup-banner.settings.image.label"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured-collection.settings.collection.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Products"
+    }
+  ]
+}
+{% endschema %}

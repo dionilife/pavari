@@ -1,0 +1,38 @@
+{% comment %}
+  Renders Pavari product card
+
+  Accepts:
+  - product: {Object} Product Liquid object (optional)
+
+  Usage:
+  {% render 'pavari-card-product', product: section.settings.show_vendor %}
+{% endcomment %}
+<a class="custom-card-product" href="{{ product.url }}">
+    <div class="custom-card-product_image-container">
+        <img
+                src="{{ product.featured_media | image_url: width: 414 }}"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px,
+                 (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="{{ product.featured_media.alt | escape }}"
+                class="motion-reduce"
+        />
+
+        <div class="custom-card-product_image-container-buttons desktop">
+            <button class="button button--primary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}">{%- if product.available == false -%}SOLD OUT{% else %}BUY NOW{%- endif %}</button>
+            <button class="button button--secondary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}" >{%- if product.available == false -%}SOLD OUT{% else %}ADD TO CART{%- endif %}</button>
+        </div>
+    </div>
+    <h2>PAVARI SPRITZ</h2>
+    <p style="">{{ product.title }}</p>
+    <span class="price">
+    {%- if product.available == false -%}
+        <span>SOLD OUT!</span>
+    {%- else -%}
+        <strong>{{ product.price | money }}</strong>
+    {%- endif -%}
+    </span>
+    <div class="custom-card-product_image-container-buttons mobile">
+        <button class="button button--primary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}">{%- if product.available == false -%}SOLD OUT{% else %}BUY NOW{%- endif %}</button>
+        <button class="button button--secondary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}" >{%- if product.available == false -%}SOLD OUT{% else %}ADD TO CART{%- endif %}</button>
+    </div>
+</a>

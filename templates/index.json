@@ -24,7 +24,7 @@
           "settings": {
             "button_label_1": "Discover Pavari 17",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -57,8 +57,17 @@
         "type": "mtbn"
       }
     },
+    "pavari_featured_products_9LgjUe": {
+      "type": "pavari-featured-products",
+      "name": "Featured Products",
+      "settings": {
+        "intro_image": "shopify://shop_images/bittersweet-aperitivo-logo.svg",
+        "collection": "pavari-17"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "pavari-17",
         "products_to_show": 8,
@@ -78,7 +87,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 44,
@@ -154,7 +163,7 @@
         "column_NgrQXC"
       ],
       "custom_css": [
-        "@media screen and (max-width: 989px) {.multicolumn-list {align-items: center; } .grid__item {max-width: 45%; }}"
+        "@media screen and (max-width: 989px) {.multicolumn-list {justify-content: center; } .grid__item {max-width: 45%; } .multicolumn-list__item .media--adapt .multicolumn-card__image {width: auto; height: auto; }}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -679,6 +688,7 @@
   "order": [
     "image_banner",
     "pavari_divider_ByhYc9",
+    "pavari_featured_products_9LgjUe",
     "featured_collection",
     "pavari_divider_WXDq3z",
     "multicolumn_YpfNCd",
