@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -41,49 +34,56 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "description": {
           "type": "description",
           "settings": {}
         },
-        "share": {
-          "type": "share",
+        "custom_liquid_n7qRdj": {
+          "type": "custom_liquid",
           "settings": {
-            "share_label": "Share"
+            "custom_liquid": "<div class=\"center small-hide medium-hide\"><a class=\"button button--secondary\" href=\"/pages/how-to-serve\" target=\"_blank\">\n          see more our cocktails\n        </a></div>"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "custom_liquid_n7qRdj"
+      ],
+      "custom_css": [
+        ".price__badge-sold-out {color: #cc561c !important; border-color: #cc561c !important; background: transparent !important;}",
+        ".quantity__label {display: none;}",
+        ".quantity {color: #cc561c; border: 1px solid #cc561c;}",
+        ".quantity::after {box-shadow: none;}",
+        ".quantity__button {color: #cc561c;}"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
-        "mobile_thumbnails": "hide",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -99,10 +99,36 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "pavari_divider_93TnWA": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
+      }
+    },
+    "stay_updated_kXCchU": {
+      "type": "stay-updated",
+      "name": "Stay Updated",
+      "settings": {
+        "title": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "description": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "placeholder": "Enter your email"
+      }
+    },
+    "pavari_divider_pk3Eyf": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "waves"
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "pavari_divider_93TnWA",
+    "stay_updated_kXCchU",
+    "pavari_divider_pk3Eyf"
   ]
 }

@@ -97,6 +97,21 @@
     max-width: 630px;
 }
 
+@media only screen and (max-width: 480px) {
+    .stay-updated {
+        padding: 80px 18px;
+    }
+    .stay-updated_wrapper {
+        flex-direction: column;
+    }
+    .stay-updated_wrapper .email-input {
+        width: 100%;
+    }
+    .stay-updated_wrapper form {
+        flex-direction: column;
+    }
+}
+
 /* CUSTOM FOOTER */
 .custom-carousel {
     max-width: 1440px;
