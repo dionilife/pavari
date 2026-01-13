@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_L4PTDY": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -50,6 +57,7 @@
         }
       },
       "block_order": [
+        "text_L4PTDY",
         "title",
         "price",
         "variant_picker",
