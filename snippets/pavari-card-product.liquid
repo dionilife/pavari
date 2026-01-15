@@ -17,7 +17,7 @@
                 class="motion-reduce"
         />
 
-        <div class="custom-card-product_image-container-buttons desktop">
+        <div class="custom-card-product_image-container-buttons custom-buy-buttons desktop">
             <button class="button button--primary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}">{%- if product.available == false -%}SOLD OUT{% else %}BUY NOW{%- endif %}</button>
             <button class="button button--secondary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}" >{%- if product.available == false -%}SOLD OUT{% else %}ADD TO CART{%- endif %}</button>
         </div>
@@ -31,7 +31,7 @@
         <strong>{{ product.price | money }}</strong>
     {%- endif -%}
     </span>
-    <div class="custom-card-product_image-container-buttons mobile">
+    <div class="custom-card-product_image-container-buttons custom-buy-buttons mobile">
         <button class="button button--primary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}">{%- if product.available == false -%}SOLD OUT{% else %}BUY NOW{%- endif %}</button>
         <button class="button button--secondary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}" >{%- if product.available == false -%}SOLD OUT{% else %}ADD TO CART{%- endif %}</button>
     </div>

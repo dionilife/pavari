@@ -39,6 +39,7 @@
     }
   {%- endstyle -%}
 
+  <script src="{{ 'featured-products.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
   {%- if product.quantity_price_breaks_configured? -%}
@@ -99,7 +100,7 @@
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   {% comment %}<h1>{{ product.title | escape }}</h1>{% endcomment %}
-                  <h2 style="text-transform: uppercase">PAVARI 17 Spirit</h2>
+                  <h2 style="text-transform: uppercase">PAVARI 17</h2>
                   <p style="font-size: 18px; max-width: 400px">{{ product.title | escape }}</p>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
@@ -284,6 +285,8 @@
                         {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
                           data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
                           max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                        {% else %}
+                          max="{{ product.selected_or_first_available_variant.inventory_quantity }}"
                         {% endif %}
                         step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
                         value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
@@ -455,6 +458,12 @@
                       {%- endif -%}
                     </volume-pricing>
                   {%- endif -%}
+                </div>
+                {% comment %}{% endcomment %}
+                <code>{{ product.selected_or_first_available_variant.inventory_quantity | json }}</code>
+                <div class="custom-buy-buttons">
+                    <button class="button button--primary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}">{%- if product.available == false -%}SOLD OUT{% else %}BUY NOW{%- endif %}</button>
+                    <button class="button button--secondary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}" >ADD TO CART</button>
                 </div>
               {%- when 'popup' -%}
                 <modal-opener

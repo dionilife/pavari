@@ -1,6 +1,6 @@
 async function addToCart(payload, options) {
   const body = JSON.stringify(payload);
-  const response = await fetch(window.Shopify.routes.root + `cart/add.js`, {
+  const response = await fetch(window.Shopify.routes.root + `cart/add.js?section_id=cart-drawer`, {
     method: 'POST',
     body,
     headers: {
@@ -33,23 +33,93 @@ async function addToCart(payload, options) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const featuredProductsButtons = document.querySelectorAll('.custom-card-product_image-container-buttons .button--primary');
+  // buy now
+  const buyButtons = document.querySelectorAll('.custom-buy-buttons .button--primary');
 
-  for (const button of featuredProductsButtons) {
+  for (const button of buyButtons) {
     button.addEventListener('click', async (e) => {
       const target = e.target;
       target.setAttribute('disabled', 'disabled');
 
       try {
         await addToCart({
-          items: {
-            id: target.dataset.variantId,
+          items: [{
+            id: parseInt(target.dataset.variantId),
             quantity: 1,
-          }
+          }]
         });
+
+        setTimeout(() => {
+          window.location.replace('/checkout');
+        }, 0);
+
+
+        // console.log('>>> ', 'cart:update', {
+        //   bubbles: true,
+        //   detail:{
+        //     data: {
+        //       itemCount: 1,
+        //       source: 'product-form-component'
+        //     }
+        //   }
+        // })
+        // document.dispatchEvent(
+        //   new CustomEvent('cart:update', {
+        //     bubbles: true,
+        //     detail:{
+        //       data: {
+        //         itemCount: 1,
+        //         // source: 'product-form-component'
+        //       }
+        //     }
+        //   })
+        // );
+        // dispatchEvent(
+        //   new CustomEvent('cart:update', {
+        //     bubbles: true,
+        //     detail:{
+        //       data: {
+        //         itemCount: 1,
+        //         // source: 'product-form-component'
+        //       }
+        //     }
+        //   })
+        // );
+
+
       } catch (error) {
         console.error('>>> ERR :: ', error);
       }
     });
   }
+  // add to cart
+  const addToCartButtons = document.querySelectorAll('.custom-buy-buttons .button--secondary');
+  console.log('>>> featuredProductsButtons 2', addToCartButtons);
+  for (const button of addToCartButtons) {
+    button.addEventListener('click', async (e) => {
+      const target = e.target;
+      target.setAttribute('disabled', 'disabled');
+
+      try {
+        await addToCart({
+          items: [{
+            id: parseInt(target.dataset.variantId),
+            quantity: 1,
+          }]
+        }, { quiet: true });
+
+        target.removeAttribute('disabled');
+
+
+
+      } catch (error) {
+        console.error('>>> ERR :: addToCartButtons', error);
+      }
+    });
+  }
+});
+
+document.addEventListener("pavari-cart-add", () => {
+  // redirect to checkout
+  window.location.replace('/checkout');
 });

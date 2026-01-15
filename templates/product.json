@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "text_L4PTDY": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -40,6 +33,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
@@ -52,12 +46,11 @@
         "custom_liquid_n7qRdj": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"center small-hide medium-hide\"><a class=\"button button--secondary\" href=\"/pages/how-to-serve\" target=\"_blank\">\n          see more our cocktails\n        </a></div>"
+            "custom_liquid": "<div class=\"small-hide medium-hide\"><a class=\"button button--secondary\" href=\"/pages/how-to-serve\" target=\"_blank\">\n          see more our cocktails\n        </a></div>"
           }
         }
       },
       "block_order": [
-        "text_L4PTDY",
         "title",
         "price",
         "variant_picker",

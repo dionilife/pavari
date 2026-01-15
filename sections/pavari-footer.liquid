@@ -1,11 +1,14 @@
 <div class="custom-footer">
     <nav aria-label="Footer navigation">
         <ul class="footer-nav">
-            <li><a href="/shop">SHOP</a></li>
-            <li><a href="/pages/cocktails">COCKTAILS</a></li>
-            <li><a href="/pages/our-story">OUR STORY</a></li>
-            <li><a href="/pages/awards">AWARDS</a></li>
-            <li><a href="/pages/contacts">CONTACTS</a></li>
+            {% comment %}<li><a href="/shop">SHOP</a></li>{% endcomment %}
+            {% comment %}<li><a href="/pages/cocktails">COCKTAILS</a></li>{% endcomment %}
+            {% comment %}<li><a href="/pages/our-story">OUR STORY</a></li>{% endcomment %}
+            {% comment %}<li><a href="/pages/awards">AWARDS</a></li>{% endcomment %}
+            {% comment %}<li><a href="/pages/contacts">CONTACTS</a></li>{% endcomment %}
+            {%- for link in section.settings.menu.links -%}
+                <li><a href="{{- link.url -}}">{{- link.title | escape -}}</a></li>
+            {%- endfor -%}
         </ul>
     </nav>
     {% comment %}<hr />{% endcomment %}
@@ -55,6 +58,12 @@
       "type": "image_picker",
       "id": "footer_logo",
       "label": "t:sections.video.settings.cover_image.label"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "default": "main-menu",
+      "label": "t:sections.header.settings.menu.label"
     },
     {
       "type": "page",

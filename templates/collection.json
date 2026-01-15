@@ -18,6 +18,43 @@
         "color_scheme": "scheme-1"
       }
     },
+    "image_banner_YKGaei": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_tiFqqY": {
+          "type": "heading",
+          "settings": {
+            "heading": "FIND YOUR PERFECT MEDITERRANEAN SIP",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tiFqqY"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/pavari-collections-hero-baner.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_position": "center-center",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "pavari_divider_hy8Nkb": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "mtbn"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "disabled": true,
@@ -53,13 +90,6 @@
       "name": "Divider",
       "settings": {
         "type": "lines"
-      }
-    },
-    "pavari_divider_hy8Nkb": {
-      "type": "pavari-divider",
-      "name": "Divider",
-      "settings": {
-        "type": "mtbn"
       }
     },
     "multicolumn_cxjnTb": {
@@ -235,6 +265,7 @@
   },
   "order": [
     "banner",
+    "image_banner_YKGaei",
     "pavari_divider_hy8Nkb",
     "product-grid",
     "pavari_featured_products_6tccKU",
