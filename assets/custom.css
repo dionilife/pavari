@@ -1,7 +1,7 @@
 :root {
   --button-color: #CC561C;
   --heading-color: #F7F7EF;
-  --text-color: #284E99;
+  --text-color: #144192;
 }
 
 /* CUSTOM DIVIDER COMPONENT */
@@ -14,6 +14,24 @@
 
         &.padding {
             max-width: 1440px;
+        }
+        &.mtbn {
+            max-width: unset;
+            height: 107px;
+        }
+    }
+
+    .mtbn-container {
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        strong {
+            color: var(--heading-color);
+            font-size: 24px;
+            text-shadow: 2px 2px 0 #282461, -2px 2px 0 #282461, -2px -2px 0 #282461, 2px -2px 0 #282461;
         }
     }
 }
@@ -382,7 +400,7 @@
     }
 
     .featured-products {
-        margin: 60px 18px;
+        margin: 0 18px 60px 18px;
 
         .featured-products_background {
             rotate: 165deg;
