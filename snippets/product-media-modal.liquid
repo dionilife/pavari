@@ -40,6 +40,11 @@
       -%}
 
       {%- for media in product.media -%}
+        {% comment %}skip first{% endcomment %}
+        {% if forloop.length > 1 and forloop.index == 1 %}
+            {% continue %}
+        {% endif %}
+        {% comment %}skip first end{% endcomment %}
         {%- liquid
           if section.settings.hide_variants and variant_images contains media.src or variant_images contains media.id
             assign variant_image = true

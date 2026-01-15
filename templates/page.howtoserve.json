@@ -86,7 +86,7 @@
         "row_RfraxK": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-on-ice.webp",
+            "image": "shopify://shop_images/freepik__create-a-cocktail-of-50mls-pavari-red-colour-ice-c__61332.png",
             "caption": "",
             "heading": "PAVARI ON ICE",
             "text": "<p>Pure, bright, and refreshing — Pavari served simply over ice.<br/>50 ml / 1.76 oz<br/><br/><strong>INGREDIENTS</strong></p><ul><li>50 mls, 8.5 oz Pavari</li><li>Ice cubes</li><li>Large wine glass</li></ul><p><strong>METHOD</strong></p><ol><li>Fill glass with ice cubes, pour Pavari over ice</li><li>Garnish with a slice of orange<br/><br/></li></ol>",
@@ -97,7 +97,7 @@
         "row_weymzm": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-mediteranean-spritz.webp",
+            "image": "shopify://shop_images/pavari_spritz_small_65ac9329-5ae2-4328-b9ef-08f00b326374.png",
             "caption": "",
             "heading": "PAVARI MEDITERRANEAN SPRITZ",
             "text": "<p>A light, sparkling spritz inspired by the Mediterranean sun.<br/>175 ml / 5.9 oz<br/><br/><strong>INGREDIENTS</strong></p><ul><li>50mls Pavari</li><li>75mls non alcoholic sparkling wine</li><li>50mls soda</li><li>Large wine glass</li></ul><p><strong>METHOD</strong></p><ol><li>Half fill glass with Ice cubes, add Pavari, pour in the sparking wine, add soda</li><li>Garnish with a slice of orange</li></ol>",
@@ -126,13 +126,25 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_6DW7UW": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/The_Pavari_Rosato._small_1.png",
+            "caption": "",
+            "heading": "PAVARI ROSATO",
+            "text": "<p>Soft, elegant and lightly floral with a subtle bitter edge.</p><p><strong>INGRIEDIENTS</strong></p><p>        •\t50ml / 1.7oz Pavari<br/>\t•\t30ml alcohol-free rosé wine<br/>\t•\t15ml blood orange juice<br/>\t•\tIce<br/>\t•\tLemon peel</p><p><strong>METHOD</strong></p><p>Stir Pavari, rosé and blood orange juice with ice until well chilled. Strain into a chilled coupe. Garnish with a lemon twist or edible flower.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_RfraxK",
         "row_weymzm",
         "row_Kzf9CR",
-        "row_yg7Hnc"
+        "row_yg7Hnc",
+        "row_6DW7UW"
       ],
       "custom_css": [
         ".multirow__inner {gap: 60px;}",

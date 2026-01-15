@@ -460,7 +460,7 @@
                   {%- endif -%}
                 </div>
                 {% comment %}{% endcomment %}
-                <code>{{ product.selected_or_first_available_variant.inventory_quantity | json }}</code>
+
                 <div class="custom-buy-buttons">
                     <button class="button button--primary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}">{%- if product.available == false -%}SOLD OUT{% else %}BUY NOW{%- endif %}</button>
                     <button class="button button--secondary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}" >ADD TO CART</button>

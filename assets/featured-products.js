@@ -53,40 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
           window.location.replace('/checkout');
         }, 0);
 
-
-        // console.log('>>> ', 'cart:update', {
-        //   bubbles: true,
-        //   detail:{
-        //     data: {
-        //       itemCount: 1,
-        //       source: 'product-form-component'
-        //     }
-        //   }
-        // })
-        // document.dispatchEvent(
-        //   new CustomEvent('cart:update', {
-        //     bubbles: true,
-        //     detail:{
-        //       data: {
-        //         itemCount: 1,
-        //         // source: 'product-form-component'
-        //       }
-        //     }
-        //   })
-        // );
-        // dispatchEvent(
-        //   new CustomEvent('cart:update', {
-        //     bubbles: true,
-        //     detail:{
-        //       data: {
-        //         itemCount: 1,
-        //         // source: 'product-form-component'
-        //       }
-        //     }
-        //   })
-        // );
-
-
       } catch (error) {
         console.error('>>> ERR :: ', error);
       }
@@ -108,9 +74,10 @@ document.addEventListener("DOMContentLoaded", () => {
           }]
         }, { quiet: true });
 
+        //@todo update cart
+
+
         target.removeAttribute('disabled');
-
-
 
       } catch (error) {
         console.error('>>> ERR :: addToCartButtons', error);
