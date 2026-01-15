@@ -1,0 +1,180 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multirow_zahcEp": {
+      "type": "multirow",
+      "blocks": {
+        "row_iGMLRY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_1.webp",
+            "caption": "Pavari 17",
+            "heading": "Gold USA Spirit Rating",
+            "text": "<p><strong>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025<br/></p>",
+            "button_label": "View Certificate",
+            "button_link": "https://usaspiritsratings.com/en/competition-certificates/2025/gold-medal/4556/"
+          }
+        },
+        "row_fYLq4A": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_2.webp",
+            "caption": "Pavari 17",
+            "heading": "90 Points USA Spirit Rating",
+            "text": "<p><strong>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025</p>",
+            "button_label": "VIew Certificate",
+            "button_link": "https://usaspiritsratings.com/en/competition-certificates/2025/gold-medal/4557/"
+          }
+        },
+        "row_7jeMix": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_3.webp",
+            "caption": "Pavari 17",
+            "heading": "<strong>Non Alcoholic Of The Year</strong>",
+            "text": "<p><strong>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025</p>",
+            "button_label": "view certificate",
+            "button_link": "https://usaspiritsratings.com/en/competition-certificates/2025/gold-medal/4556/"
+          }
+        },
+        "row_Ew77Tq": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_4.webp",
+            "caption": "Pavari 17",
+            "heading": "91 Points USA Spirit Rating",
+            "text": "<p><strong>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_PRqTMe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_5.webp",
+            "caption": "Pavari 17",
+            "heading": "96 Point International Non Alcoholic Competition",
+            "text": "<p><strong>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025</p>",
+            "button_label": "View Award",
+            "button_link": "https://nonalcoholcomp.com/product/mediterranean-aperitif/"
+          }
+        },
+        "row_NhbNbT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_6.webp",
+            "caption": "Pavari 17",
+            "heading": "Gold Winner : 95 Points",
+            "text": "<p><strong>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_r3xAaB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_7.webp",
+            "caption": "Pavari 17",
+            "heading": "Non Alcohol Aperitif Of  The Year",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "View Award",
+            "button_link": "https://nonalcoholcomp.com/product/spritz-3/"
+          }
+        },
+        "row_AHfbWf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_8.webp",
+            "caption": "Pavari 17",
+            "heading": "Best Non-Alcoholic",
+            "text": "<p><strong>Sunset International Sprits Competition<br/>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025</p>",
+            "button_label": "View Award",
+            "button_link": "https://sunsetcompetitions.com/wp-content/uploads/2024/04/Sunset-Spirits-Results-2025.pdf"
+          }
+        },
+        "row_FtijUH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_9.webp",
+            "caption": "Pavari 17",
+            "heading": "Best of Class",
+            "text": "<p><strong>Sunset International Sprits Competition<br/>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025</p>",
+            "button_label": "View Award",
+            "button_link": "https://sunsetcompetitions.com/wp-content/uploads/2024/04/Sunset-Spirits-Results-2025.pdf"
+          }
+        },
+        "row_UYUxAx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Awwards_10.webp",
+            "caption": "Pavari 17",
+            "heading": "Gold Award",
+            "text": "<p><strong>Sunset International Sprits Competition<br/>Producer Name:</strong> DioniLife<br/><strong>Country:</strong> United Kingdom<br/><strong>Category:</strong> Non-alcoholic Spirits<br/><strong>Year:</strong> 2025</p>",
+            "button_label": "View Award",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_iGMLRY",
+        "row_fYLq4A",
+        "row_7jeMix",
+        "row_Ew77Tq",
+        "row_PRqTMe",
+        "row_NhbNbT",
+        "row_r3xAaB",
+        "row_AHfbWf",
+        "row_FtijUH",
+        "row_UYUxAx"
+      ],
+      "custom_css": [
+        ".image-with-text__media {display: flex; align-items: center; justify-content: center; width: 100%;}",
+        ".image-with-text__media img {width: 33%; height: auto; position: static;}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "image_layout": "align-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "pavari_divider_J6HPgb": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multirow_zahcEp",
+    "pavari_divider_J6HPgb"
+  ]
+}

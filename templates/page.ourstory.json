@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_CAADYG": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fGQz9j": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR STORY",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fGQz9j"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/pavari-our-story-hero-banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_position": "center-center",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "pavari_divider_nVTrXC": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "mtbn"
+      }
+    },
+    "multirow_qptAaT": {
+      "type": "multirow",
+      "blocks": {
+        "row_M8E4Ca": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Med-and-bottle-tiny-853x1024.png",
+            "caption": "PAVARI 17",
+            "heading": "THE PREMIUM NON ALCOHOLIC MEDITERRANEAN APERITIF",
+            "text": "<p>A sophisticated aperitif with a full bittersweet taste. The delicate blend of sweet citrus with bitter undertones and a dryness from the white wine.</p><p>Velvety and rounded on the tongue with an adult complexity without the alcohol.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_VnYEJh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/pavari-spritz_tiny-853x1024.png",
+            "caption": "",
+            "heading": "PAVARI SPRITZ",
+            "text": "<p>An expertly crafted ready to serve spritz combining Pavari 17, with sparkling wine, a touch of citrus fruits and soda.</p><p>Light and refreshing, not overly sweet and exceptionally crisp and vibrant.</p><p>The perfect refreshing Spritz, so good you forget it’s not alcoholic.</p><p>All natural ingredients, no added sugar and only 51 calories per serve.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_M8E4Ca",
+        "row_VnYEJh"
+      ],
+      "custom_css": [
+        ".multirow__inner {gap: 60px;}"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "pavari_divider_KWExhW": {
+      "type": "pavari-divider",
+      "name": "Divider",
+      "settings": {
+        "type": "lines"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_CAADYG",
+    "pavari_divider_nVTrXC",
+    "multirow_qptAaT",
+    "pavari_divider_KWExhW"
+  ]
+}
