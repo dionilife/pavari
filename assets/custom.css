@@ -419,6 +419,12 @@
 
 /* OVERRIDES */
 
+.multicolumn__title {
+    img {
+        align-self: center;
+    }
+}
+
 .cart-count-bubble,
 .cart__checkout-button {
     background-color: var(--button-color);
@@ -466,5 +472,36 @@
     }
     a.link.underlined-link {
         color: var(--text-color);
+    }
+}
+
+.contact-page {
+    h2.title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    p.subtitle {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .contact__fields {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .contact__button {
+        button {
+            background-color: var(--button-color);
+            border: none;
+            color: var(--heading-color);
+            text-transform: uppercase;
+        }
+        button::after {
+            box-shadow: none !important;
+        }
+        button:hover{
+            text-decoration: underline;
+        }
     }
 }
