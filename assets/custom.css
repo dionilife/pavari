@@ -31,8 +31,18 @@
 
         strong {
             color: var(--heading-color);
-            font-size: 24px;
+            font-size: 32px;
             text-shadow: 2px 2px 0 #282461, -2px 2px 0 #282461, -2px -2px 0 #282461, 2px -2px 0 #282461;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .custom-divider {
+        .mtbn-container {
+            strong {
+                font-size: 24px;
+            }
         }
     }
 }
@@ -47,6 +57,7 @@
 
     .stay-updated-alert {
         display: inline-block;
+        align-self: center;
         margin: 10px 0;
     }
 
@@ -70,6 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     gap: 1.25rem;
 
     .newsletter__subheading {
@@ -135,8 +147,23 @@
         width: 100%;
     }
 
-    .stay-updated_wrapper form {
+    .stay-updated_wrapper form, .email-input-wrapper {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .stay-updated_wrapper {
+        flex-direction: column;
+    }
+    .stay-updated_wrapper .email-input {
+        width: 100%;
+    }
+    .stay-updated_wrapper form, .email-input-wrapper {
+        flex-direction: column;
+    }
+    .title-wrapper-with-link {
+        align-items: center;
     }
 }
 
@@ -393,6 +420,15 @@
         }
     }
 }
+@media only screen and (max-width: 750px) {
+    .custom-footer {
+        .footer-nav {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: normal;
+        }
+    }
+}
 
 @media only screen and (max-width: 480px) {
     .custom-footer {
@@ -409,13 +445,6 @@
             .outro-text {
                 font-size: 24px;
             }
-        }
-
-        .footer-nav {
-            display: grid;
-            grid-template-columns: auto auto;
-            justify-content: normal;
-
         }
     }
 
@@ -556,7 +585,28 @@
             text-decoration: underline;
         }
     }
+
+    .form__message {
+        background-color: #177B54;
+        color: var(--heading-color);
+        align-items: center !important;
+        justify-content: center !important;
+
+        svg {
+            width: 32px;
+            height: 32px;
+            path {
+                fill: #177B54;
+            }
+        }
+    }
 }
+
+.header__active-menu-item {
+    color: var(--button-color);
+}
+
+/* CART QUANTITY INPUT */
 
 .quantity {
     color: var(--button-color);

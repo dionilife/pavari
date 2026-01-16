@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const splide = new Splide('.splide', {
     arrows: false,
+    autoplay: false,
     gap: '40px',
     lazyLoad: true,
     padding: { left: '5%', right: '10%' },

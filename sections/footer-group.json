@@ -16,7 +16,7 @@
       "custom_css": [],
       "name": "Custom Footer",
       "settings": {
-        "footer_logo": "shopify://shop_images/pavari-17_logo.png",
+        "footer_logo": "shopify://shop_images/pavari_logo.svg",
         "menu": "pavari-menu",
         "privacy_page": "data-sharing-opt-out",
         "terms_page": "terms-of-service"

@@ -35,11 +35,16 @@
         "heading",
         "button"
       ],
+      "custom_css": [
+        ".banner__content {margin: 0; justify-content: start;}",
+        ".banner__content .banner__box {text-align: left; max-width: 600px;}",
+        "@media only screen and (max-width: 480px) {.banner__content .banner__box {padding: 4rem 1.5rem 1rem 1.5rem; text-align: center; }.banner__content .banner__box .banner__buttons {margin-top:1rem } .banner__content .banner__box .banner__heading {font-size: 36px; }}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/Hero_Section.webp",
+        "image": "shopify://shop_images/homepage_banner_blue.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "image_position": "bottom-center",
+        "image_position": "center-left",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
@@ -219,7 +224,7 @@
           "settings": {
             "image": "shopify://shop_images/WHY-PAVARI-17__SOPHISTICATED.webp",
             "title": "<strong>SOPHISTICATED</strong>",
-            "text": "<p>Like our aperitif, our voice is elegant yet approachable. We balance refinement with warmth — never stuffy, always confident, making the complex feel effortless and stylish.</p>",
+            "text": "<p>Like our aperitif, our voice is elegant yet approachable. We balance refinement with warmth, never stuffy, always confident, making the complex feel effortless and stylish.</p>",
             "link_label": "",
             "link": ""
           }
@@ -240,6 +245,9 @@
         "column_jdnA4P",
         "column_jYTNTV",
         "column_EhgUUJ"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper .media {border-radius: 50% 50% 0px 0px;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -496,7 +504,7 @@
         "background_style": "primary",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -575,7 +583,7 @@
         "image": "shopify://shop_images/pavari-17_our-story.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "image_position": "middle-center",
+        "image_position": "center-center",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
