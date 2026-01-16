@@ -462,8 +462,14 @@
                 {% comment %}{% endcomment %}
 
                 <div class="custom-buy-buttons">
-                    <button class="button button--primary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}">{%- if product.available == false -%}SOLD OUT{% else %}BUY NOW{%- endif %}</button>
-                    <button class="button button--secondary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}" >ADD TO CART</button>
+                    <button class="button buy-now button--primary" {%- if product.available == false -%}disabled{%- endif %} data-variant-id="{{ product.selected_or_first_available_variant.id }}">{%- if product.available == false -%}SOLD OUT{% else %}BUY NOW{%- endif %}</button>
+                    {%- render 'buy-buttons',
+                            block: block,
+                            product: product,
+                            product_form_id: product_form_id,
+                            section_id: section.id,
+                            show_pickup_availability: false
+                    -%}
                 </div>
               {%- when 'popup' -%}
                 <modal-opener
@@ -489,12 +495,13 @@
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
+
                 {%- render 'buy-buttons',
                   block: block,
                   product: product,
                   product_form_id: product_form_id,
                   section_id: section.id,
-                  show_pickup_availability: true
+                  show_pickup_availability: false
                 -%}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}

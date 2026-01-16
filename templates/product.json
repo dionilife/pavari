@@ -31,14 +31,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -55,17 +47,10 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "description",
         "custom_liquid_n7qRdj"
       ],
-      "custom_css": [
-        ".price__badge-sold-out {color: #cc561c !important; border-color: #cc561c !important; background: transparent !important;}",
-        ".quantity__label {display: none;}",
-        ".quantity {color: #cc561c; border: 1px solid #cc561c;}",
-        ".quantity::after {box-shadow: none;}",
-        ".quantity__button {color: #cc561c;}"
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",

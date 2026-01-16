@@ -32,61 +32,43 @@ async function addToCart(payload, options) {
   return cart.items;
 }
 
+
+async function onBuyNow(event) {
+  event.preventDefault();
+  event.stopPropagation();
+
+  const quantityInput = document.querySelector('.quantity__input');
+  const target = event.target;
+  target.setAttribute('disabled', 'disabled');
+
+  try {
+    await addToCart({
+      items: [{
+        id: parseInt(target.dataset.variantId),
+        quantity: quantityInput ? parseInt(quantityInput.value) : 1,
+      }]
+    });
+
+    setTimeout(() => {
+      console.log('REDIRECT')
+      window.location.replace('/checkout');
+    }, 0);
+
+  } catch (error) {
+    console.error('>>> ERR :: ', error);
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   // buy now
-  const buyButtons = document.querySelectorAll('.custom-buy-buttons .button--primary');
-
+  const buyButtons = document.querySelectorAll('.custom-buy-buttons button.buy-now');
   for (const button of buyButtons) {
-    button.addEventListener('click', async (e) => {
-      const target = e.target;
-      target.setAttribute('disabled', 'disabled');
-
-      try {
-        await addToCart({
-          items: [{
-            id: parseInt(target.dataset.variantId),
-            quantity: 1,
-          }]
-        });
-
-        setTimeout(() => {
-          window.location.replace('/checkout');
-        }, 0);
-
-      } catch (error) {
-        console.error('>>> ERR :: ', error);
-      }
-    });
+    button.addEventListener('click', onBuyNow);
   }
-  // add to cart
-  const addToCartButtons = document.querySelectorAll('.custom-buy-buttons .button--secondary');
-  console.log('>>> featuredProductsButtons 2', addToCartButtons);
-  for (const button of addToCartButtons) {
-    button.addEventListener('click', async (e) => {
-      const target = e.target;
-      target.setAttribute('disabled', 'disabled');
 
-      try {
-        await addToCart({
-          items: [{
-            id: parseInt(target.dataset.variantId),
-            quantity: 1,
-          }]
-        }, { quiet: true });
-
-        //@todo update cart
-
-
-        target.removeAttribute('disabled');
-
-      } catch (error) {
-        console.error('>>> ERR :: addToCartButtons', error);
-      }
-    });
-  }
 });
 
-document.addEventListener("pavari-cart-add", () => {
-  // redirect to checkout
-  window.location.replace('/checkout');
-});
+// document.addEventListener("pavari-cart-add", () => {
+//   // redirect to checkout
+//   window.location.replace('/checkout');
+// });
