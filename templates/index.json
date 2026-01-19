@@ -41,10 +41,10 @@
         "@media only screen and (max-width: 480px) {.banner__content .banner__box {padding: 4rem 1.5rem 1rem 1.5rem; text-align: center; } .banner__content .banner__box .banner__buttons {margin-top: 1rem; } .banner__content .banner__box .banner__heading {font-size: 36px; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/homepage_banner_blue.png",
+        "image": "shopify://shop_images/Blue_Hp_banner_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "image_position": "center-left",
+        "image_position": "center-center",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
@@ -202,9 +202,9 @@
         "column_LpNyiT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/WHY-PAVARI-17__VIBRANT.webp",
+            "image": "shopify://shop_images/barman_s.jpg",
             "title": "<strong>VIBRANT</strong>",
-            "text": "<p>Our words sparkle with the same zest as our citrus fruits. Always bright, uplifting, and full of life, we bring an energy that excites the senses and makes people lean in.</p>",
+            "text": "<p>A burst of Mediterranean energy in every pour. Pavari 17 is alive with sun-soaked citrus, aromatic bitters and crisp white wine, delivering a bold, bittersweet flavour that awakens the senses. Bright, expressive and unapologetically confident, it is designed to turn heads and excite the palate from the very first sip.</p>",
             "link_label": "",
             "link": ""
           }
@@ -212,9 +212,9 @@
         "column_jdnA4P": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/WHY-PAVARI-17__REFRESHING.webp",
+            "image": "shopify://shop_images/couple_s.jpg",
             "title": "<strong>REFRESHING</strong>",
-            "text": "<p>We cut through the noise with clarity and lightness. Crisp, clear language that awakens and revitalises, leaving people with a sense of something truly new.</p>",
+            "text": "<p>Light, crisp and effortlessly uplifting. Crafted from a dry Mediterranean white wine and infused with 17 natural fruits and botanicals, Pavari 17 delivers a clean, revitalising finish with layers of citrus zest and gentle bitterness. Whether served over ice or as a sparkling spritz, it transports you straight to warm terraces and sea-breeze afternoons.</p>",
             "link_label": "",
             "link": ""
           }
@@ -222,9 +222,9 @@
         "column_jYTNTV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/WHY-PAVARI-17__SOPHISTICATED.webp",
+            "image": "shopify://shop_images/pavari_sophisticatred_s.jpg",
             "title": "<strong>SOPHISTICATED</strong>",
-            "text": "<p>Like our aperitif, our voice is elegant yet approachable. We balance refinement with warmth, never stuffy, always confident, making the complex feel effortless and stylish.</p>",
+            "text": "<p>An aperitif with true adult complexity. Velvety and rounded on the tongue, Pavari 17 balances sweet citrus with refined bitter undertones and a dry wine backbone. Elegant yet approachable, it offers all the ritual, depth and pleasure of a classic aperitivo, without the alcohol. Effortless glamour, beautifully composed.</p>",
             "link_label": "",
             "link": ""
           }
@@ -232,9 +232,9 @@
         "column_EhgUUJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/WHY-PAVARI-17__OPEN-TO-ALL.webp",
+            "image": "shopify://shop_images/couple_at_cliff_restaurent_sm.jpg",
             "title": "<strong>OPEN TO ALL</strong>",
-            "text": "<p>Inspired by the Mediterranean table, our language is an open invitation. Welcoming and unpretentious, we speak in a way that makes everyone feel part of the moment.</p>",
+            "text": "<p>Inspired by the Mediterranean table, Pavari is made for sharing, any time of day. From midday moments to sunset gatherings, it redefines the aperitivo as an inclusive ritual rather than a fleeting hour. Welcoming, relaxed and unpretentious, Pavari invites everyone to pull up a chair, pour a glass and be part of the moment.</p>",
             "link_label": "",
             "link": ""
           }
@@ -253,7 +253,7 @@
       "settings": {
         "title": "<strong>WHY PAVARI 17?</strong>",
         "heading_size": "h0",
-        "subtitle": "ANYtime aperitif | flaunt it | the hot med sun | made to be noticed",
+        "subtitle": "Your Anytime aperitif | Mediterranean sun | made to be noticed",
         "image_width": "full",
         "image_ratio": "adapt",
         "button_label": "",
@@ -369,7 +369,7 @@
           "settings": {
             "image": "shopify://shop_images/ingridients_cinchona-bark.webp",
             "title": "<strong>CINCHONA BARK</strong>",
-            "text": "<p>Brings an anchor to sweetness ans citrus</p>",
+            "text": "<p>Brings an anchor to sweetness and citrus</p>",
             "link_label": "",
             "link": ""
           }
@@ -456,9 +456,9 @@
         "column_4EQ6gW": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-on-ice.webp",
+            "image": "shopify://shop_images/pavari_on_ice_1.jpg",
             "title": "<strong>Pavari ON ICE</strong>",
-            "text": "<p>Pour Pavari into an ice-filled glass and top with fresh soda, tonic, or non-alcoholic prosecco. Garnish generously with slices of zesty orange for a bright, refreshing spritz moment.</p>",
+            "text": "<p>Enjoy Pavari simply over ice. Clean, bold, and refreshing - a pure expression of flavour, perfect for an easy aperitivo moment without the alcohol.</p>",
             "link_label": "",
             "link": ""
           }
@@ -466,9 +466,9 @@
         "column_HxcbNy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-mediteranean-spritz.webp",
+            "image": "shopify://shop_images/pavari_spritz_1.jpg",
             "title": "<strong>PAVARI MEDITERRANEAN SPRITZ</strong>",
-            "text": "<p>Enjoy Pavari simply over ice. Clean, bold, and refreshing - a pure expression of flavour, perfect for an easy aperitivo moment without the alcohol.</p>",
+            "text": "<p>Pour Pavari into an ice-filled glass and top with fresh soda, tonic, or non-alcoholic prosecco. Garnish generously with slices of zesty orange for a bright, refreshing spritz moment.</p>",
             "link_label": "",
             "link": ""
           }
@@ -476,9 +476,9 @@
         "column_am7CA6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-tonic.webp",
+            "image": "shopify://shop_images/pavari_tonic_1.jpg",
             "title": "<strong>PAVARI TONIC</strong>",
-            "text": "<p>Serve Pavari as a vibrant orange spritz and finish with the signature peacock feather stirrer. It’s not just about taste - it’s about theatre, turning every pour into a moment made to be noticed.<br/><br/></p>",
+            "text": "<p>Serve Pavari over ice and top with a a vibrant tonic, finish with a orange twist. It’s not just about taste - it’s about theatre, turning every pour into a moment made to be noticed.<br/><br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -581,7 +581,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/pavari-17_our-story.webp",
+        "image": "shopify://shop_images/people_cheers_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_position": "center-center",
@@ -670,7 +670,7 @@
       "settings": {
         "title": "<strong>OUR COMMUNITY</strong>",
         "heading_size": "h0",
-        "subtitle": "SHARE YOUR MOMENT. TAG @PAVARI17",
+        "subtitle": "SHARE YOUR MOMENT. TAG @drink_pavari17",
         "image_width": "full",
         "image_ratio": "adapt",
         "button_label": "",

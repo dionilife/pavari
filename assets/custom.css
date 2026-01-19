@@ -169,12 +169,18 @@
 
 /* CUSTOM FOOTER */
 .custom-carousel {
+    display: flex;
+    flex-direction: column;
     max-width: 1440px;
     margin: 120px auto;
 
     .title {
         margin-top: 0;
         margin-bottom: 60px;
+    }
+    .banner__buttons {
+        align-self: center;
+        margin-top: 60px;
     }
 }
 
@@ -604,6 +610,16 @@
 
 .header__active-menu-item {
     color: var(--button-color);
+}
+
+/* SPLIDEJS CAROUSEL */
+
+.splide__pagination {
+    bottom: -3rem !important;
+}
+
+.splide__pagination__page.is-active {
+    border: 1px solid #ccc;
 }
 
 /* CART QUANTITY INPUT */

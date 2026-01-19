@@ -40,10 +40,10 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/pavari-our-cocktails-hero-baner.webp",
+        "image": "shopify://shop_images/cocktails_page.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "image_position": "center-center",
+        "image_position": "bottom-center",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
@@ -86,10 +86,10 @@
         "row_RfraxK": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-on-ice.webp",
+            "image": "shopify://shop_images/pavari_on_ice_1.jpg",
             "caption": "",
             "heading": "PAVARI ON ICE",
-            "text": "<p>Pure, bright, and refreshing — Pavari served simply over ice.<br/>50 ml / 1.76 oz<br/><br/><strong>INGREDIENTS</strong></p><ul><li>50 mls, 8.5 oz Pavari</li><li>Ice cubes</li><li>Large wine glass</li></ul><p><strong>METHOD</strong></p><ol><li>Fill glass with ice cubes, pour Pavari over ice</li><li>Garnish with a slice of orange<br/><br/></li></ol>",
+            "text": "<p>Enjoy Pavari simply over ice. Clean, bold, and refreshing - a pure expression of flavour, perfect for an easy aperitivo moment without the alcohol.<br/><br/><strong>INGREDIENTS</strong></p><ul><li>50 mls, 1.7 oz Pavari</li><li>Ice cubes</li><li>Whiskey</li></ul><p><strong>METHOD</strong></p><ol><li>Fill glass with ice cubes, pour Pavari over ice</li><li>Garnish with a slice of dehydrated orange<br/><br/></li></ol>",
             "button_label": "",
             "button_link": ""
           }
@@ -97,10 +97,10 @@
         "row_weymzm": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-mediteranean-spritz.webp",
+            "image": "shopify://shop_images/pavari_spritz_1.jpg",
             "caption": "",
             "heading": "PAVARI MEDITERRANEAN SPRITZ",
-            "text": "<p>A light, sparkling spritz inspired by the Mediterranean sun.<br/>175 ml / 5.9 oz<br/><br/><strong>INGREDIENTS</strong></p><ul><li>50mls Pavari</li><li>75mls non alcoholic sparkling wine</li><li>50mls soda</li><li>Large wine glass</li></ul><p><strong>METHOD</strong></p><ol><li>Half fill glass with Ice cubes, add Pavari, pour in the sparking wine, add soda</li><li>Garnish with a slice of orange</li></ol>",
+            "text": "<p>Pour Pavari into an ice-filled glass and top with fresh soda, tonic, or non-alcoholic prosecco. Garnish generously with slices of zesty orange for a bright, refreshing spritz moment.<br/><br/><strong>INGREDIENTS</strong></p><ul><li>50 ml | 1.7 oz Pavari</li><li>75 ml | 2.5 oz non alcoholic sparkling wine</li><li>50 ml | 1.7 oz soda</li><li>Large wine glass</li></ul><p><strong>METHOD</strong></p><ol><li>Half fill glass with Ice cubes, add Pavari, pour in the sparking wine, add soda</li><li>Garnish with a twist of orange</li></ol>",
             "button_label": "",
             "button_link": ""
           }
@@ -108,10 +108,10 @@
         "row_Kzf9CR": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-tonic.webp",
+            "image": "shopify://shop_images/pavari_tonic_1.jpg",
             "caption": "",
             "heading": "PAVARI TONIC",
-            "text": "<p>Crisp and refreshing, with balanced citrus and gentle bitterness.<br/>125 ml / 4.2 oz<br/></p><p><strong>INGRIEDIENTS</strong></p><ul><li>50mls Pavari</li><li>75mls diet tonic</li><li>Ice cubes</li><li>Large wine glass</li></ul><p><strong>METHOD</strong></p><ol><li>Half fill glass with ice cubes, pour Pavari over ice</li><li>Add tonic water</li><li>Garnish with a slice of orange<br/><br/></li></ol>",
+            "text": "<p>Serve Pavari over ice and top with a a vibrant tonic, finish with a orange twist. It’s not just about taste - it’s about theatre, turning every pour into a moment made to be noticed.<br/></p><p><strong>INGRIEDIENTS</strong></p><ul><li>50 ml | 1.7 oz Pavari</li><li>75 ml | 2.5 oz diet tonic</li><li>Ice cubes</li><li>Large wine glass</li></ul><p><strong>METHOD</strong></p><ol><li>Half fill glass with ice cubes, pour Pavari over ice</li><li>Add tonic water</li><li>Garnish with a slice of orange<br/><br/></li></ol>",
             "button_label": "",
             "button_link": ""
           }
@@ -119,10 +119,10 @@
         "row_yg7Hnc": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/cirtus-and-thyme-cocktail.png",
+            "image": "shopify://shop_images/Pavari_CItrus_1.jpg",
             "caption": "",
             "heading": "PAVARI CITRUS & THYME",
-            "text": "<p>Fresh, aromatic and slightly herbal with a Mediterranean lift.</p><p><strong>INGRIEDIENTS</strong></p><p>        •\t50ml / 1.7oz Pavari<br/>\t•\t75ml / 2.6oz soda water<br/>\t•\t25ml / 0.8oz fresh grapefruit juice<br/>\t•\tIce<br/>\t•\tOrange peel<br/>\t•\tFresh thyme sprig</p><p><strong>METHOD</strong></p><p>Fill a rocks glass with ice. Add Pavari and grapefruit juice, then top with soda. Stir gently. Garnish with an orange peel and a sprig of thyme.<br/><br/></p>",
+            "text": "<p>Serve Pavari over ice with fresh grapefruit juice and a splash of soda, finished with an orange peel and a fragrant sprig of thyme. Bright, aromatic and subtly herbal, it is a Mediterranean moment in a glass, where freshness meets theatre and every garnish is part of the performance.</p><p><strong>INGRIEDIENTS</strong></p><p>        •\t50 ml | 1.7 oz Pavari<br/>\t•\t75ml  | 2.6oz soda water<br/>\t•\t25ml  | 0.8oz fresh grapefruit juice<br/>\t•\tIce<br/>\t•\tOrange peel & Fresh sprig of thyme</p><p><strong>METHOD</strong></p><p>Fill a rocks glass with ice. Add Pavari and grapefruit juice, then top with soda. Stir gently. Garnish with an orange peel and a sprig of thyme.<br/><br/></p>",
             "button_label": "",
             "button_link": ""
           }

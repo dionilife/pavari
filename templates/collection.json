@@ -34,7 +34,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Story_banner.png",
+        "image": "shopify://shop_images/female_bar_pour.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_position": "center-center",
@@ -187,9 +187,9 @@
         "column_fFKW9m": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-on-ice.webp",
+            "image": "shopify://shop_images/pavari_on_ice_1.jpg",
             "title": "<strong>Pavari ON ICE</strong>",
-            "text": "<p>Pour Pavari into an ice-filled glass and top with fresh soda, tonic, or non-alcoholic prosecco. Garnish generously with slices of zesty orange for a bright, refreshing spritz moment.</p>",
+            "text": "<p>Enjoy Pavari simply over ice. Clean, bold, and refreshing - a pure expression of flavour, perfect for an easy aperitivo moment without the alcohol.</p>",
             "link_label": "",
             "link": ""
           }
@@ -197,9 +197,9 @@
         "column_HpbDbH": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-mediteranean-spritz.webp",
+            "image": "shopify://shop_images/pavari_spritz_1.jpg",
             "title": "<strong>PAVARI MEDITERRANEAN SPRITZ</strong>",
-            "text": "<p>Enjoy Pavari simply over ice. Clean, bold, and refreshing - a pure expression of flavour, perfect for an easy aperitivo moment without the alcohol.<br/><br/></p>",
+            "text": "<p>Pour Pavari into an ice-filled glass and top with fresh soda, tonic, or non-alcoholic prosecco. Garnish generously with slices of zesty orange for a bright, refreshing spritz moment.<br/><br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -207,9 +207,9 @@
         "column_L7xRda": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/serve_pavari-tonic.webp",
+            "image": "shopify://shop_images/pavari_tonic_1.jpg",
             "title": "<strong>PAVARI TONIC</strong>",
-            "text": "<p>Serve Pavari as a vibrant orange spritz and finish with the signature peacock feather stirrer. It’s not just about taste - it’s about theatre, turning every pour into a moment made to be noticed.<br/><br/></p>",
+            "text": "<p>Serve Pavari over ice and top with a a vibrant tonic, finish with a orange twist. It’s not just about taste - it’s about theatre, turning every pour into a moment made to be noticed.<br/><br/></p>",
             "link_label": "",
             "link": ""
           }

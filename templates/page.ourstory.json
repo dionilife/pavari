@@ -33,7 +33,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/pavari-our-story-hero-banner.png",
+        "image": "shopify://shop_images/cocktail_cliff_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_position": "center-center",
@@ -60,7 +60,7 @@
         "row_M8E4Ca": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Med-and-bottle-tiny-853x1024.png",
+            "image": "shopify://shop_images/couple_1.png",
             "caption": "PAVARI 17",
             "heading": "THE PREMIUM NON ALCOHOLIC MEDITERRANEAN APERITIF",
             "text": "<p>A sophisticated aperitif with a full bittersweet taste. The delicate blend of sweet citrus with bitter undertones and a dryness from the white wine.</p><p>Velvety and rounded on the tongue with an adult complexity without the alcohol.</p>",

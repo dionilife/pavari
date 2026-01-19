@@ -23,6 +23,17 @@
         "row_iGMLRY": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Asset-2-8.png",
+            "caption": "EST. 2025",
+            "heading": "Dionilife Academy",
+            "text": "<p>Our awards celebrate the progress, craft, and innovation behind the brands we build, and the standards we hold ourselves to. <br/><br/><br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_9R6mrd": {
+          "type": "row",
+          "settings": {
             "image": "shopify://shop_images/Awwards_1.webp",
             "caption": "Pavari 17",
             "heading": "Gold USA Spirit Rating",
@@ -133,6 +144,7 @@
       },
       "block_order": [
         "row_iGMLRY",
+        "row_9R6mrd",
         "row_fYLq4A",
         "row_7jeMix",
         "row_Ew77Tq",

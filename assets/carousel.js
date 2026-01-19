@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     gap: '40px',
     lazyLoad: true,
     padding: { left: '5%', right: '10%' },
-    pagination: false,
+    pagination: true,
     perPage: 5,
     rewind : false,
     type: 'loop',
