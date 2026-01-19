@@ -20,7 +20,9 @@
         />
 
     </div>
-    <h2>PAVARI 17</h2>
+    {%- if product.metafields.custom.product_prefix != blank -%}
+        <h2>{{ product.metafields.custom.product_prefix }}</h2>
+    {%- endif -%}
     <p style="">{{ product.title }}</p>
     <span class="price">
     {%- if product.available == false -%}

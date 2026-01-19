@@ -38,7 +38,7 @@
       "custom_css": [
         ".banner__content {margin: 0; justify-content: start;}",
         ".banner__content .banner__box {text-align: left; max-width: 600px;}",
-        "@media only screen and (max-width: 480px) {.banner__content .banner__box {padding: 4rem 1.5rem 1rem 1.5rem; text-align: center; }.banner__content .banner__box .banner__buttons {margin-top:1rem } .banner__content .banner__box .banner__heading {font-size: 36px; }}"
+        "@media only screen and (max-width: 480px) {.banner__content .banner__box {padding: 4rem 1.5rem 1rem 1.5rem; text-align: center; } .banner__content .banner__box .banner__buttons {margin-top: 1rem; } .banner__content .banner__box .banner__heading {font-size: 36px; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/homepage_banner_blue.png",
@@ -576,7 +576,8 @@
       "type": "image-banner",
       "custom_css": [
         ".banner__media {background: none;}",
-        ".banner__media img {padding: 80px;}"
+        ".banner__media img {padding: 80px;}",
+        "@media only screen and (max-width: 480px) {.banner__media img {padding: 40px 18px; }}"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -607,41 +608,51 @@
         "column_Q4rMWY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/our-community-video-example.png",
+            "image": "shopify://shop_images/instagram-image-2.webp",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://instagram.com/drink_pavari17/"
           }
         },
         "column_CYqgkH": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/our-community-video-example.png",
+            "image": "shopify://shop_images/instagram-image-3.webp",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://instagram.com/drink_pavari17/"
           }
         },
         "column_TJUwt8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/our-community-video-example.png",
+            "image": "shopify://shop_images/instagram-image-6.webp",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://instagram.com/drink_pavari17/"
           }
         },
         "column_FUedK3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/our-community-video-example.png",
+            "image": "shopify://shop_images/instagram-image-4.webp",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "https://instagram.com/drink_pavari17/"
+          }
+        },
+        "column_XCMxkU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/instagram-image-5.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://instagram.com/drink_pavari17/"
           }
         }
       },
@@ -649,7 +660,11 @@
         "column_Q4rMWY",
         "column_CYqgkH",
         "column_TJUwt8",
-        "column_FUedK3"
+        "column_FUedK3",
+        "column_XCMxkU"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {margin: 0 !important;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -660,14 +675,14 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "column_alignment": "left",
         "background_style": "primary",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "pavari_divider_QKpwEE": {
