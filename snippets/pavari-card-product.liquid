@@ -12,7 +12,7 @@
 <a href="{{ product.url }}">
     <div class="custom-card-product_image-container">
         <img
-                src="{{ product.featured_media | image_url: width: 414 }}"
+                src="{{ product.featured_media | image_url: width: 1024 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px,
                  (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt="{{ product.featured_media.alt | escape }}"
