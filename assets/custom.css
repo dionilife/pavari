@@ -470,9 +470,45 @@
         }
     }
 }
+/* BUY ON AMAZON BTN */
+.amazon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #111;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease, transform 0.1s ease;
+}
+/*
+.amazon-btn:hover {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transform: translateY(-1px);
+}
 
+.amazon-btn:active {
+    transform: translateY(0);
+}
+*/
+.amazon-logo {
+    display: inline-flex;
+    height: auto;
+    margin-bottom: -10px;
+}
 
-/* OVERRIDES */
+.amazon-logo svg {
+    height: 36px;
+    width: auto;
+    display: block;
+}
+
+/* --- OVERRIDES --- */
 
 .multicolumn__title {
     img {

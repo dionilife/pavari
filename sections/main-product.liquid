@@ -473,6 +473,9 @@
                             show_pickup_availability: false
                     -%}
                 </div>
+                {%- if product.metafields.custom.buy_on_amazon_url != blank -%}
+                    {%- render 'buy-on-amazon-button', url: product.metafields.custom.buy_on_amazon_url -%}
+                {%- endif -%}
               {%- when 'popup' -%}
                 <modal-opener
                   class="product-popup-modal__opener quick-add-hidden"

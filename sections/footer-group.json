@@ -18,7 +18,7 @@
       "settings": {
         "footer_logo": "shopify://shop_images/pavari_logo.svg",
         "menu": "pavari-menu",
-        "privacy_page": "data-sharing-opt-out",
+        "privacy_page": "privacy-policy",
         "terms_page": "terms-of-service"
       }
     },

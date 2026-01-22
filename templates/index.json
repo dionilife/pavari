@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>A TASTE THAT SPEAKS BOLDLY</strong>",
+            "heading": "THE ANYTIME APERITIF",
             "heading_size": "hxl"
           }
         },
@@ -202,7 +202,7 @@
         "column_LpNyiT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/barman_s.jpg",
+            "image": "shopify://shop_images/barman_pour.jpg",
             "title": "<strong>VIBRANT</strong>",
             "text": "<p>A burst of Mediterranean energy in every pour. Pavari 17 is alive with sun-soaked citrus, aromatic bitters and crisp white wine, delivering a bold, bittersweet flavour that awakens the senses. Bright, expressive and unapologetically confident, it is designed to turn heads and excite the palate from the very first sip.</p>",
             "link_label": "",
@@ -497,7 +497,7 @@
         "subtitle": "",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "see more our cocktails",
+        "button_label": "see more  cocktails",
         "button_link": "shopify://pages/how-to-serve",
         "columns_desktop": 3,
         "column_alignment": "left",
